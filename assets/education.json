@@ -1,0 +1,36 @@
+[{
+  "id" : 1,
+  "title" : "Bachelor of Science",
+  "thesis" : "Autonomic Computing in Peer-to-Peer Networks",
+  "start" : "2004",
+  "end" : "2009",
+  "supervisor" : "Kalman Graffi, Prof. Dr.-Ing. Ralf Steinmetz",
+  "affiliation" : "KOM - Multimedia Communications Lab, Technische Universität Darmstadt, Germany",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "link" : "#/bachelor"
+},{
+  "id" : 2,
+  "title" : "Master of Science",
+  "thesis" : "Explorative Analysis of Structure and Semantics in Topic-Coherent News Articles",
+  "start" : "2009",
+  "end" : "2011",
+  "supervisor" : "Dr. Miloš Krstajić, Prof. Dr. Daniel Keim",
+  "affiliation" : "Data Analysis and Visualization, Universität Konstanz, Germany",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "link" : "#/master"
+},{
+  "id" : 3,
+  "title" : "Ph.D. rer nat., Doctorial Studies",
+  "thesis" : "Visual Analytic Methods for Exploring Large Amounts of Relational Data with Matrix-based Representations",
+  "monthstart" : "Dec.",
+  "start" : "Dec. 2011",
+  "end" : "present",
+  "supervisor" : "Prof. Dr. Tobias Schreck and Prof. Dr. Daniel Keim",
+  "affiliation" : "Data Analysis and Visualization, Universität Konstanz, Germany",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "link" : "#/phd"
+}
+]

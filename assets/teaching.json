@@ -1,0 +1,83 @@
+[{
+  "title" : "Multimedia Databases",
+  "type" : "Lecture",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
+  "duration": "Summer term 2012",
+  "organization": "University of Konstanz"
+}, {
+  "title" : "Analysis & Visualization",
+  "type" : "Lecture",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte:, Grundlegende Methoden des Data Mining, Datenaufbereitung und Datenvorverarbeitung, Gebräuchliche Analysealgorithmen und -methoden, Grundlagen der Informationsvisualisierung, Menschliche Wahrnehmung und Visualisierungsdesign, Visualisierungsmöglichkeiten verschiedener Daten",
+  "duration": "Winter term 2012",
+  "organization": "University of Konstanz"
+}, {
+  "title" : "Database Systems",
+  "type" : "Lecture",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte: Funktionalität, Architektur und Realisierungskonzepte von Datenbanksystemen, Grundlegendes Verständnis über den Aufbau und die Funktionsweise von Datenbanksystemen und deren Nutzung, Konzeptionelle Datenmodellierung mit Hilfe des Entity-Relationship-Modells und die Abbildung auf relationale Datenbankschemata, Verständnis der Sprachkonstrukte von SQL und deren Verbindung zu mathematisch präzisen Formalismen (Algebra, Kalkül), Funktionsweise und Abstraktionsmechanismen der transaktionsorientierten Verarbeitung, Synchronisations- und Recovery-Probleme erkennen und grundsätzliche Lösungsmöglichkeiten aufzeigen",
+  "duration": "Summer term 2013",
+  "organization": "University of Konstanz"
+},{
+  "title" : "Multimedia Databases",
+  "type" : "Lecture",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
+  "duration": "Summer term 2014",
+  "organization": "University of Konstanz"
+},{
+  "title" : "Multimedia Databases",
+  "type" : "Lecture",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
+  "duration": "Summer term 2015",
+  "organization": "University of Konstanz"
+},{
+  "title" : "Multimedia Databases",
+  "type" : "Lecture",
+  "badgeClass": "primary",
+  "badgeIconClass": "school",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
+  "duration": "Summer term 2016",
+  "organization": "University of Konstanz"
+},{
+  "title" : "Visual Data Analysis",
+  "type" : "Seminar",
+  "badgeClass": "info",
+  "badgeIconClass": "library_books",
+  "position" : "Teaching Assistent",
+  "goal": "Lerninhalte: Selbständiges wissenschaftliches Arbeiten am Beispiel eines fachspezifischen Themas, Literatur Recherche , Vergleich und Bewerten von Forschungs-Arbeiten , Thema erarbeiten und verständlich präsentieren , Nutzung von Präsentations-Medien , wissenschaftliches Schreiben",
+  "duration": "Summer term 2016",
+  "organization": "University of Konstanz"
+},{
+  "title" : "Information Visualization",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Full Lecturer",
+  "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
+  "duration": "Winter term 2016",
+  "organization": "University of Konstanz"
+},{
+  "title" : "CS171 Information Visualization and Design",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Teaching Fellow",
+  "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
+  "duration": "Winter term 2017",
+  "organization": "Harvard Univerisity, Cambridge USA"
+}
+]
