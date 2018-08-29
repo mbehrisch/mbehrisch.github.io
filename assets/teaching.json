@@ -79,5 +79,14 @@
   "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
   "duration": "Winter term 2017",
   "organization": "Harvard Univerisity, Cambridge USA"
+},{
+  "title" : "CS171 Information Visualization and Design",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Teaching Fellow",
+  "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
+  "duration": "Winter term 2018",
+  "organization": "Harvard Univerisity, Cambridge USA"
 }
 ]

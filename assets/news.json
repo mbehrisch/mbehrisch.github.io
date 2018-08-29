@@ -71,15 +71,6 @@
   "date": "March 2015",
   "image": "assets/thumbs/THB+15a.png"
 },{
-  "type" : "Best Paper",
-  "title" : "IEEE Big Data Visual Analytics (BDVA 2015)",
-  "subtitle" : "Guiding the Exploration of Scatter Plot Data Using Motif-Based Interest Measures",
-  "message" : "I'm honored to have received a best paper award at BDVA 2015.",
-  "badgeIconClass": "fa fa-gift",
-  "link" : "http://www.bdva.net/2015",
-  "date": "September 2015",
-  "image": "assets/thumbs/Shao2014c.png"
-},{
   "type" : "Conference",
   "title" : "EuroVis 2016 (Groningen, Netherlands)",
   "subtitle" : "Matrix Reordering Methods for Table and Network Visualization",
@@ -151,5 +142,41 @@
   "link" : "http://ieeevis.org/year/2017/info/papers",
   "date": "July 2017",
   "image": "http://ieeevis.org/assets/VIS-webbanner2017.jpg"
+},{
+  "type" : "Conference",
+  "title" : "IEEE BDVA 2018 (Konstanz, Germany)",
+  "subtitle" : "Visual Pattern-Driven Exploration of Big Data accepted",
+  "message" : "I'm coming home!",
+  "badgeIconClass": "icon_quotations",
+  "link" : "http://bdva.net/2018/",
+  "date": "October 2018",
+  "image": "https://pbs.twimg.com/profile_images/928368573126512640/sP4XJSJA_400x400.jpg"
+},{
+  "type" : "Invited Talk",
+  "title" : "VisInPractice 2018",
+  "subtitle" : "Commercial Visual Analytics Systems – Advances in the Big Data Analytics Field",
+  "message" : "I was invited to present our STAR report on Commercial Visual Analytics Systems",
+  "badgeIconClass": "icon_chat",
+  "link" : "http://www.visinpractice.rwth-aachen.de/",
+  "date": "October 2018",
+  "image": "https://pbs.twimg.com/profile_images/1004387679599931392/2KLOlzfd_400x400.jpg"
+},{
+  "type" : "Conference",
+  "title" : "2x IEEE VAST, 1x TVCG STAR Report 2018 (Berlin, Germany)",
+  "subtitle" : "Commercial VA Systems STAR, Seq-2-SeqVIS, and SmartExplore accepted",
+  "message" : "Three VIS papers were accepted at IEEE VIS! Great success!",
+  "badgeIconClass": "icon_quotations",
+  "link" : "http://ieeevis.org/year/2018/info/papers",
+  "date": "October 2018",
+  "image": "https://pbs.twimg.com/profile_images/926539028035284993/S9cMtks3_400x400.jpg"
+},{
+  "type" : "Honorable Mention",
+  "title" : "IEEE VAST 2018",
+  "subtitle" : "SEQ2SEQ-VIS : A Visual Debugging Tool for   Sequence-to-Sequence Models",
+  "message" : "YEAHHHH!!! We received an honorable mention award at IEEE VAST 2018.",
+  "badgeIconClass": "fa fa-gift",
+  "link" : "http://seq2seq-vis.io/",
+  "date": "October 2018",
+  "image": "assets/thumbs/Strobelt2018.png"
 }
 ]

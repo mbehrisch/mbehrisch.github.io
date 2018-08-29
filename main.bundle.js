@@ -62,7 +62,7 @@ var AboutmeComponent = (function () {
     return AboutmeComponent;
 }());
 AboutmeComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-aboutme',
         template: __webpack_require__("../../../../../src/app/aboutme/aboutme.component.html"),
         styles: [__webpack_require__("../../../../../src/app/aboutme/aboutme.component.css")]
@@ -1021,7 +1021,7 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-root',
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.css")]
@@ -1059,6 +1059,10 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_app_teaching_teaching_component__ = __webpack_require__("../../../../../src/app/teaching/teaching.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__counter_counter_component__ = __webpack_require__("../../../../../src/app/counter/counter.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__project_project_component__ = __webpack_require__("../../../../../src/app/project/project.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_ngx_clipboard__ = __webpack_require__("../../../../ngx-clipboard/dist/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__filter_pipe__ = __webpack_require__("../../../../../src/app/filter.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__highlight_pipe__ = __webpack_require__("../../../../../src/app/highlight.pipe.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1066,6 +1070,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
 
 
 
@@ -1130,12 +1138,16 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_18__supervision_supervision_component__["a" /* SupervisionComponent */],
             __WEBPACK_IMPORTED_MODULE_19_app_teaching_teaching_component__["a" /* TeachingComponent */],
             __WEBPACK_IMPORTED_MODULE_20__counter_counter_component__["a" /* CounterComponent */],
-            __WEBPACK_IMPORTED_MODULE_21__project_project_component__["a" /* ProjectComponent */]
+            __WEBPACK_IMPORTED_MODULE_21__project_project_component__["a" /* ProjectComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__filter_pipe__["a" /* FilterPipe */],
+            __WEBPACK_IMPORTED_MODULE_25__highlight_pipe__["a" /* HighlightPipe */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_15__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* RouterModule */].forRoot(appRoutes)
+            __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* RouterModule */].forRoot(appRoutes),
+            __WEBPACK_IMPORTED_MODULE_24__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_22_ngx_clipboard__["a" /* ClipboardModule */]
         ],
         providers: [],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
@@ -1195,7 +1207,7 @@ var BannerComponent = (function () {
     return BannerComponent;
 }());
 BannerComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-banner',
         template: __webpack_require__("../../../../../src/app/banner/banner.component.html"),
         styles: [__webpack_require__("../../../../../src/app/banner/banner.component.css")]
@@ -1256,7 +1268,7 @@ var ContactComponent = (function () {
     return ContactComponent;
 }());
 ContactComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-contact',
         template: __webpack_require__("../../../../../src/app/contact/contact.component.html"),
         styles: [__webpack_require__("../../../../../src/app/contact/contact.component.css")]
@@ -1333,7 +1345,7 @@ var CounterComponent = (function () {
     return CounterComponent;
 }());
 CounterComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-counter',
         template: __webpack_require__("../../../../../src/app/counter/counter.component.html"),
         styles: [__webpack_require__("../../../../../src/app/counter/counter.component.css")],
@@ -1451,7 +1463,7 @@ var DataserviceService = (function () {
     return DataserviceService;
 }());
 DataserviceService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
 ], DataserviceService);
 
@@ -1509,7 +1521,7 @@ var DissertationComponent = (function () {
     return DissertationComponent;
 }());
 DissertationComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-dissertation',
         template: __webpack_require__("../../../../../src/app/dissertation/dissertation.component.html"),
         styles: [__webpack_require__("../../../../../src/app/dissertation/dissertation.component.css")]
@@ -1518,6 +1530,46 @@ DissertationComponent = __decorate([
 ], DissertationComponent);
 
 //# sourceMappingURL=dissertation.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/filter.pipe.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FilterPipe; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var FilterPipe = (function () {
+    function FilterPipe() {
+    }
+    FilterPipe.prototype.transform = function (items, searchText) {
+        if (!items) {
+            return [];
+        }
+        if (!searchText) {
+            return items;
+        }
+        searchText = searchText.toLowerCase();
+        return items.filter(function (it) {
+            return it.bibtex.toLowerCase().includes(searchText);
+        });
+    };
+    return FilterPipe;
+}());
+FilterPipe = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Pipe */])({
+        name: 'filter'
+    })
+], FilterPipe);
+
+//# sourceMappingURL=filter.pipe.js.map
 
 /***/ }),
 
@@ -1542,7 +1594,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FOOTER 1 only social links -->\n<footer id=\"footer1\" class=\"page-section text-center p-100-cont\">\n  <div class=\"container\">\n\n    <!-- Social Links -->\n    <div class=\"footer-soc-a\">\n      <a href=\"https://scholar.google.com/citations?user=12Bl2VgAAAAJ&hl=en\" title=\"Google Scholar\" target=\"_blank\">\n                        <i data-wow-duration=\"1.0s\" data-wow-delay=\"0.8s\" class=\"ai ai-google-scholar-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://www.linkedin.com/in/michael-behrisch-89144710\" title=\"LinkedIn\" target=\"_blank\">\n                        <i data-wow-duration=\"1.0s\" data-wow-delay=\"0.8s\" class=\"wow bounceIn fa fa-linkedin-square fa-3x\"></i></a>\n      <a href=\"https://www.researchgate.net/profile/Michael_Behrisch\" title=\"Research Gate\" target=\"_blank\">\n                        <i class=\"wow bounceIn ai ai-researchgate-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://twitter.com/michaelbehrisch\" title=\"Twitter\" target=\"_blank\"><i class=\"wow bounceIn fa fa-twitter-square fa-3x\"></i></a>\n      <a href=\"mailto:mbehrisch@gmail.com\" title=\"Personal Email\" target=\"_blank\"><i class=\"wow bounceIn fa fa-envelope-square fa-3x\"></i></a>\n    </div>\n  </div>\n</footer>"
+module.exports = "<!-- FOOTER 1 only social links -->\n<footer id=\"footer1\" class=\"page-section text-center p-100-cont\">\n  <div class=\"container\">\n\n    <!-- Social Links -->\n    <div class=\"footer-soc-a\">\n      <a href=\"https://scholar.google.com/citations?user=12Bl2VgAAAAJ&hl=en\" title=\"Google Scholar\" target=\"_blank\">\n                        <i class=\"ai ai-google-scholar-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://www.linkedin.com/in/michael-behrisch-89144710\" title=\"LinkedIn\" target=\"_blank\">\n                        <i class=\"wow bounceIn fa fa-linkedin-square fa-3x\"></i></a>\n      <a href=\"https://www.researchgate.net/profile/Michael_Behrisch\" title=\"Research Gate\" target=\"_blank\">\n                        <i class=\"wow bounceIn ai ai-researchgate-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://twitter.com/michaelbehrisch\" title=\"Twitter\" target=\"_blank\"><i class=\"wow bounceIn fa fa-twitter-square fa-3x\"></i></a>\n      <a href=\"mailto:mbehrisch@gmail.com\" title=\"Personal Email\" target=\"_blank\"><i class=\"wow bounceIn fa fa-envelope-square fa-3x\"></i></a>\n      <span class=\"text-muted\">Last Update: Sept. 2018</span>\n    </div>\n  </div>\n</footer>"
 
 /***/ }),
 
@@ -1570,7 +1622,7 @@ var FooterComponent = (function () {
     return FooterComponent;
 }());
 FooterComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-footer',
         template: __webpack_require__("../../../../../src/app/footer/footer.component.html"),
         styles: [__webpack_require__("../../../../../src/app/footer/footer.component.css")]
@@ -1579,6 +1631,53 @@ FooterComponent = __decorate([
 ], FooterComponent);
 
 //# sourceMappingURL=footer.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/highlight.pipe.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HighlightPipe; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HighlightPipe = (function () {
+    function HighlightPipe(sanitizer) {
+        this.sanitizer = sanitizer;
+    }
+    HighlightPipe.prototype.transform = function (text, search) {
+        if (search && text) {
+            var pattern = search.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
+            pattern = pattern.split(' ').filter(function (t) {
+                return t.length > 0;
+            }).join('|');
+            var regex = new RegExp(pattern, 'gi');
+            return this.sanitizer.bypassSecurityTrustHtml(text.replace(regex, function (match) { return "<span class=\"searchhighlight\">" + match + "</span>"; }));
+        }
+        else {
+            return text;
+        }
+    };
+    return HighlightPipe;
+}());
+HighlightPipe = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Pipe */])({ name: 'highlight' }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["d" /* DomSanitizer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["d" /* DomSanitizer */]) === "function" && _a || Object])
+], HighlightPipe);
+
+var _a;
+//# sourceMappingURL=highlight.pipe.js.map
 
 /***/ }),
 
@@ -1606,27 +1705,30 @@ var LatexPipe = (function () {
     // ü (Alt 0252)
     // ß (Alt 0223)
     LatexPipe.prototype.transform = function (value, args) {
-        value = value.replace('{\\"{o}}', 'ö');
-        value = value.replace('{\\"{a}', 'ä');
-        value = value.replace('{\\"{u}}', 'ü');
         value = value.replace('{\\"{A}}', 'Ä');
-        value = value.replace('{\\"{O}}', 'Ö');
-        value = value.replace('{\\"{U}}', 'Ü');
-        value = value.replace('\\"{o}', 'ö');
-        value = value.replace('\\"{a}', 'ä');
-        value = value.replace('\\"{u}', 'ü');
         value = value.replace('\\"{A}', 'Ä');
-        value = value.replace('\\"{O}', 'Ö');
-        value = value.replace('\\"{U}', 'Ü');
-        value = value.replace('{\\\'e}', 'é');
+        value = value.replace('{\\"{a}', 'ä');
+        value = value.replace('\\"{a}', 'ä');
         value = value.replace('�', 'ä');
+        value = value.replace('\\"a', 'ä');
+        value = value.replace('\\"{O}', 'Ö');
+        value = value.replace('{\\"{O}}', 'Ö');
+        value = value.replace('{\\"{o}}', 'ö');
+        value = value.replace('\\"{o}', 'ö');
         value = value.replace('�', 'ö');
+        value = value.replace('\\"o', 'ö');
+        value = value.replace('\\"{U}', 'Ü');
+        value = value.replace('{\\"{U}}', 'Ü');
+        value = value.replace('{\\"{u}}', 'ü');
+        value = value.replace('\\"{u}', 'ü');
+        value = value.replace('\\"u', 'ü');
+        value = value.replace('{\\\'e}', 'é');
         return value;
     };
     return LatexPipe;
 }());
 LatexPipe = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Pipe */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Pipe */])({
         name: 'latex'
     })
 ], LatexPipe);
@@ -1684,7 +1786,7 @@ var MaincontentComponent = (function () {
     return MaincontentComponent;
 }());
 MaincontentComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-maincontent',
         template: __webpack_require__("../../../../../src/app/maincontent/maincontent.component.html"),
         styles: [__webpack_require__("../../../../../src/app/maincontent/maincontent.component.css")]
@@ -1764,7 +1866,7 @@ var NewsComponent = (function () {
     return NewsComponent;
 }());
 NewsComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-news',
         template: __webpack_require__("../../../../../src/app/news/news.component.html"),
         styles: [__webpack_require__("../../../../../src/app/news/news.component.css")],
@@ -1827,7 +1929,7 @@ var PortfolioComponent = (function () {
     return PortfolioComponent;
 }());
 PortfolioComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-portfolio',
         template: __webpack_require__("../../../../../src/app/portfolio/portfolio.component.html"),
         styles: [__webpack_require__("../../../../../src/app/portfolio/portfolio.component.css")]
@@ -1907,7 +2009,7 @@ var ProjectComponent = (function () {
     return ProjectComponent;
 }());
 ProjectComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-project',
         template: __webpack_require__("../../../../../src/app/project/project.component.html"),
         styles: [__webpack_require__("../../../../../src/app/project/project.component.css")],
@@ -1929,7 +2031,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ":host /deep/ .searchhighlight {\r\n  background-color: #F2E366;\r\n}", ""]);
 
 // exports
 
@@ -1942,7 +2044,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/publications/publications.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-counter></app-counter>\n\n<div id=\"publications-link\" class=\"container p-140-cont\">\n  <div class=\"container\">\n    <div class=\"mb-60\">\n      <h2 class=\"section-title2 text-center p-0\">Publications Sorted by Year</h2>\n    </div>\n    <div class=\"row\">\n      <div *ngFor=\"let item of bibList\" class=\"ts-container mb-50 wow fadeIn\" data-wow-delay=\"300ms\">\n        <div *ngIf=\"item.entryType.indexOf('MastersThesis') > -1 || item.entryType.indexOf('PhdThesis') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"fa fa-graduation-cap main-menu-icon\"></span>\n               <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\">\n                <h4>{{item.entryTags.type}} <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']\n                  }}</h4>\n                <p class=\"authors\"> {{item.entryTags.school}} - {{item.entryTags.organization}}<span class=\"slash-divider\">|</span> {{item.entryTags.year}}</p>\n                <div class=\"post-prev-info font-13\">\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                      <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/thesis/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"{{item.entryTags.url}}\">\n                      <span aria-hidden=\"true\" class=\"icon_quotations_alt2\"></span> Citation\n                  </a>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n        <div *ngIf=\"item.entryType.indexOf('InProceedings') > -1 || item.entryType.indexOf('Conference') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n\n              <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Workshop') > -1\">\n                <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n              </ng-template>\n              <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') > -1\">\n                <span aria-hidden=\"true\" class=\"icon_easel main-menu-icon\"></span>\n              </ng-template>\n              <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') == -1 && item.entryTags.booktitle.indexOf('Workshop') == -1\">\n                <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>          \n              </ng-template>\n               <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\">\n                <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Workshop') > -1\">\n                  <h4>Workshop Paper <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']}}</h4>\n                </ng-template>\n                 <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') > -1\">\n                  <h4>Poster Paper <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']}}</h4>\n                </ng-template>\n                <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') == -1 && item.entryTags.booktitle.indexOf('Workshop') == -1\">\n                  <h4>Full Paper <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']}}</h4>           \n                </ng-template>\n\n\n                <p class=\"authors\">{{item.entryTags.author | latex}}</p>\n                <p class=\"venue\">{{item.entryTags.booktitle}}, {{item.entryTags.pages}}, {{item.entryTags.year}}</p>\n                \n                <div class=\"post-prev-info font-13\">\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                      <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"{{item.entryTags.url}}\">\n                      <span aria-hidden=\"true\" class=\"icon_quotations_alt2\"></span> Citation\n                  </a>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n              <!-- {{item | json}} -->\n            </div>\n          </div>\n        </div>\n        <div *ngIf=\"item.entryType.indexOf('Article') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n               <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\">\n                <h4>Full Paper <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']}}</h4>           \n\n\n                <p class=\"authors\">{{item.entryTags.author | latex}}</p>\n                <p class=\"venue\">{{item.entryTags.journal}}, {{item.entryTags.volume}}, {{item.entryTags.number}}, {{item.entryTags.pages}}, {{item.entryTags.year}}</p>\n                \n                <div class=\"post-prev-info font-13\">\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                      <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"{{item.entryTags.url}}\">\n                      <span aria-hidden=\"true\" class=\"icon_quotations_alt2\"></span> Citation\n                  </a>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div *ngIf=\"item.entryType.indexOf('InCollection') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n               <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\">\n                <h4>Full Paper <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']}}</h4>           \n\n\n                <p class=\"authors\">{{item.entryTags.author | latex}}</p>\n                <p class=\"venue\">{{item.entryTags.booktitle}}, {{item.entryTags.volume}}, {{item.entryTags.pages}}, {{item.entryTags.year}}</p>\n                \n                <div class=\"post-prev-info font-13\">\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                      <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"{{item.entryTags.url}}\">\n                      <span aria-hidden=\"true\" class=\"icon_quotations_alt2\"></span> Citation\n                  </a>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div *ngIf=\"item.entryType.indexOf('MastersThesis') == -1 && item.entryType.indexOf('PhdThesis') == -1 \n        && item.entryType.indexOf('InProceedings') == -1 && item.entryType.indexOf('Conference') == -1 \n        && item.entryType.indexOf('Article') == -1 && item.entryType.indexOf('InCollection') == -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"fa fa-code main-menu-icon\"></span>\n               <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\">\n                <h4>Other <span class=\"slash-divider\">|</span> {{item.entryTags.title | removechar:['{','}']}}</h4>           \n\n                <p class=\"authors\">{{item.entryTags.author | latex}}</p>\n                \n                <div class=\"post-prev-info font-13\">\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                      <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"{{item.entryTags.url}}\">\n                      <span aria-hidden=\"true\" class=\"icon_quotations_alt2\"></span> Citation\n                  </a>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<app-counter></app-counter>\n\n<div id=\"publications-link\" class=\"container p-140-cont\">\n  <div class=\"container\">\n    <div class=\"mb-60\">\n      <h2 class=\"section-title2 text-center p-0\">Publications Sorted by Year</h2>\n    </div>\n\n    <div class=\"row\">\n      <div class=\"fes11-box wow fadeIn\" style=\"visibility: visible; animation-name: fadeIn;\">\n        <div class=\"fes1-box-icon\">\n          <div class=\"icon icon_search\"></div>\n        </div>\n        <input [(ngModel)]=\"searchText\" placeholder=\"Search...\">\n        <!-- <h3 class=\"font-montserrat\"><strong>Fully Responsive</strong></h3>\n        <p>Sed ut perspiciatis nat bacus antium</p> -->\n      </div>\n    </div>\n\n    <div class=\"row\"></div>\n    <div *ngFor=\"let item of bibList | filter : searchText\" class=\"ts-container mb-50\" >\n      <!-- InProceedings -->\n\n      <div *ngIf=\"item.entryType.indexOf('InProceedings') > -1 || item.entryType.indexOf('Conference') > -1\">\n        <div class=\"ts-icon-container-bg\">\n          <div class=\"ts-icon-container\">\n\n            <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Workshop') > -1\">\n              <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n            </ng-template>\n            <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') > -1\">\n              <span aria-hidden=\"true\" class=\"icon_easel main-menu-icon\"></span>\n            </ng-template>\n            <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') == -1 && item.entryTags.booktitle.indexOf('Workshop') == -1\">\n              <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n            </ng-template>\n            <!-- fa-graduation-cap -->\n          </div>\n        </div>\n\n        <div class=\"ts-main-container-bg\">\n          <div class=\"ts-main-container clearfix\">\n            <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\" >\n              <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Workshop') > -1\">\n                <h4>Workshop Paper\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span></h4>\n              </ng-template>\n              <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') > -1\">\n                <h4 >Poster Paper\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span></h4>\n              </ng-template>\n              <ng-template [ngIf]=\"item.entryTags.booktitle.indexOf('Poster') == -1 && item.entryTags.booktitle.indexOf('Workshop') == -1\">\n                <h4 >Full Paper\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span></h4>\n              </ng-template>\n\n              <p class=\"authors\" ><span [innerHTML]=\"item.entryTags.author | latex | highlight: searchText\"></span></p>\n              <p class=\"venue\" ><span [innerHTML]=\"item.entryTags.booktitle | highlight: searchText\"></span>, <span [innerHTML]=\"item.entryTags.pages | highlight: searchText\"></span>, <span [innerHTML]=\"item.entryTags.year | highlight: searchText\"></span></p>\n\n              <div class=\"post-prev-info font-13\" >\n                {{item.entryTags.month}} {{item.entryTags.year}}\n                <span class=\"slash-divider\">|</span>\n                <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                  <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                </a>\n                <span class=\"slash-divider\">|</span>\n                <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                  <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                </a>\n                <span *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" class=\"slash-divider\">|</span>\n                <a *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" href=\"{{item.entryTags.url}}\">\n                  <span aria-hidden=\"true\" class=\"icon_link\"></span> Link\n                </a>\n                <span *ngIf=\"item.entryTags.doi\" class=\"slash-divider\">|</span>\n                <a *ngIf=\"item.entryTags.doi\" href=\"http://doi.org/{{item.entryTags.doi}}\">\n                  <span aria-hidden=\"true\" class=\"ai ai-doi\"></span> Doi\n                </a>\n                <span class=\"slash-divider\">|</span>\n                <button class=\"btn btn-link text-muted\" ngxClipboard [cbContent]=\"item.bibtex\" data-container=\"body\" data-toggle=\"popover\" data-placement=\"right\" data-content=\"Copied to clipboard\">\n                  <span aria-hidden=\"true\" class=\"icon_clipboard\"></span> Bibtex\n                </button>\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n\n\n        <!-- Article -->\n\n        <div *ngIf=\"item.entryType.indexOf('Article') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n              <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\" >\n                <h4 >Full Paper\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span>\n                </h4>\n\n                <p class=\"authors\" ><span [innerHTML]=\"item.entryTags.author | latex | highlight: searchText\"></span></p>\n                <!-- <p class=\"venue\" ><span [innerHTML]=\"item.entryTags.journal, item.entryTags.volume, item.entryTags.number, item.entryTags.pages, item.entryTags.year | highlight: searchText\"></span></p> -->\n                <p class=\"venue\" >\n                  <span [innerHTML]=\"item.entryTags.journal | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.volume | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.number | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.pages | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.year | highlight: searchText\"></span>\n                </p>\n\n                <div class=\"post-prev-info font-13\" >\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" href=\"{{item.entryTags.url}}\">\n                    <span aria-hidden=\"true\" class=\"icon_link\"></span> Link\n                  </a>\n                  <span *ngIf=\"item.entryTags.doi\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.doi\" href=\"http://doi.org/{{item.entryTags.doi}}\">\n                    <span aria-hidden=\"true\" class=\"ai ai-doi\"></span> Doi\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <button class=\"btn btn-link text-muted\" ngxClipboard [cbContent]=\"item.bibtex\" data-container=\"body\" data-toggle=\"popover\" data-placement=\"right\" data-content=\"Copied to clipboard\">\n                    <span aria-hidden=\"true\" class=\"icon_clipboard\"></span> Bibtex\n                  </button>\n                </div>\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n\n        <!-- InCollection -->\n\n        <div *ngIf=\"item.entryType.indexOf('InCollection') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"icon_quotations main-menu-icon\"></span>\n              <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\" >\n                <h4 >Full Paper\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span>\n                </h4>\n\n                <p class=\"authors\" ><span [innerHTML]=\"item.entryTags.author | latex | highlight: searchText\"></span></p>\n                <!-- <p class=\"venue\" >{{item.entryTags.booktitle}}, {{item.entryTags.volume}}, {{item.entryTags.pages}}, {{item.entryTags.year}}</p> -->\n                <p class=\"venue\" >\n                  <span [innerHTML]=\"item.entryTags.booktitle | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.volume | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.pages | highlight: searchText\"></span>, \n                  <span [innerHTML]=\"item.entryTags.year | highlight: searchText\"></span>\n                </p>\n\n                <div class=\"post-prev-info font-13\" >\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" href=\"{{item.entryTags.url}}\">\n                    <span aria-hidden=\"true\" class=\"icon_link\"></span> Link\n                  </a>\n                  <span *ngIf=\"item.entryTags.doi\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.doi\" href=\"http://doi.org/{{item.entryTags.doi}}\">\n                    <span aria-hidden=\"true\" class=\"ai ai-doi\"></span> Doi\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <button class=\"btn btn-link text-muted\" ngxClipboard [cbContent]=\"item.bibtex\" data-container=\"body\" data-toggle=\"popover\" data-placement=\"right\" data-content=\"Copied to clipboard\">\n                    <span aria-hidden=\"true\" class=\"icon_clipboard\"></span> Bibtex\n                  </button>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n\n        <!-- Other -->\n\n        <div *ngIf=\"item.entryType.indexOf('MastersThesis') == -1 && item.entryType.indexOf('PhdThesis') == -1 \n        && item.entryType.indexOf('InProceedings') == -1 && item.entryType.indexOf('Conference') == -1 \n        && item.entryType.indexOf('Article') == -1 && item.entryType.indexOf('InCollection') == -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"fa fa-code main-menu-icon\"></span>\n              <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\" >\n                <h4 >Other\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span>\n                </h4>\n\n                <p class=\"authors\" ><span [innerHTML]=\"item.entryTags.author | latex | highlight: searchText\"></span></p>\n\n                <div class=\"post-prev-info font-13\" >\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" href=\"{{item.entryTags.url}}\">\n                    <span aria-hidden=\"true\" class=\"icon_link\"></span> Link\n                  </a>\n                  <span *ngIf=\"item.entryTags.doi\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.doi\" href=\"http://doi.org/{{item.entryTags.doi}}\">\n                    <span aria-hidden=\"true\" class=\"ai ai-doi\"></span> Doi\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <button class=\"btn btn-link text-muted\" ngxClipboard [cbContent]=\"item.bibtex\" data-container=\"body\" data-toggle=\"popover\" data-placement=\"right\" data-content=\"Copied to clipboard\">\n                    <span aria-hidden=\"true\" class=\"icon_clipboard\"></span> Bibtex\n                  </button>\n                </div>\n\n                <!--<div class=\"right-text t-a-container mt-10\">-->\n                <!--<span class=\"author-testimonial\">EuroVA 2013</span><span class=\"slash-divider\">|</span>-->\n                <!--<span class=\"quote-author-description\">Presentation, Full-Paper</span>-->\n                <!--</div>-->\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n\n\n        <!-- Masterthesis and Phdthesis -->\n\n        <div *ngIf=\"item.entryType.indexOf('MastersThesis') > -1 || item.entryType.indexOf('PhdThesis') > -1\">\n          <div class=\"ts-icon-container-bg\">\n            <div class=\"ts-icon-container\">\n              <span aria-hidden=\"true\" class=\"fa fa-graduation-cap main-menu-icon\"></span>\n              <!-- fa-graduation-cap -->\n            </div>\n          </div>\n\n          <div class=\"ts-main-container-bg\">\n            <div class=\"ts-main-container clearfix\">\n              <div class=\"ts-text-container font-poppins\" style=\"padding-top: 10px;\" >\n                <h4 >{{item.entryTags.type}}\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.title | removechar:['{','}'] | highlight: searchText\"></span>\n                </h4>\n\n                <p class=\"authors\" >\n                  <span [innerHTML]=\"item.entryTags.school | highlight: searchText\"></span> - \n                  <span [innerHTML]=\"item.entryTags.organization | highlight: searchText\"></span>\n\n                  <span class=\"slash-divider\">|</span> <span [innerHTML]=\"item.entryTags.year | highlight: searchText\"></span>\n                </p>\n                <div class=\"post-prev-info font-13\" >\n                  {{item.entryTags.month}} {{item.entryTags.year}}\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/presentations/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_images\"></span> Presentation\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <a href=\"assets/papers/{{item.citationKey}}.pdf\">\n                    <span aria-hidden=\"true\" class=\"icon_documents_alt\"></span> Paper\n                  </a>\n                  <span *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.url && item.entryTags.url.indexOf('doi') == -1\" href=\"{{item.entryTags.url}}\">\n                    <span aria-hidden=\"true\" class=\"icon_link\"></span> Link\n                  </a>\n                  <span *ngIf=\"item.entryTags.doi\" class=\"slash-divider\">|</span>\n                  <a *ngIf=\"item.entryTags.doi\" href=\"http://doi.org/{{item.entryTags.doi}}\">\n                    <span aria-hidden=\"true\" class=\"ai ai-doi\"></span> Doi\n                  </a>\n                  <span class=\"slash-divider\">|</span>\n                  <button class=\"btn btn-link text-muted\" ngxClipboard [cbContent]=\"item.bibtex\" data-container=\"body\" data-toggle=\"popover\" data-placement=\"right\" data-content=\"Copied to clipboard\">\n                    <span aria-hidden=\"true\" class=\"icon_clipboard\"></span> Bibtex\n                  </button>\n                </div>\n              </div>\n              <div class=\"ts-img-container\">\n                <img src=\"assets/thumbs/{{item.citationKey}}.png\" alt=\"No Preview Available\">\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1967,17 +2069,46 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var PublicationsComponent = (function () {
     function PublicationsComponent(dataservice) {
         this.dataservice = dataservice;
+        // tslint:disable:forin
+        this.toBibtex = function (json) {
+            var out = '';
+            out += '@' + json.entryType;
+            out += '{';
+            if (json.citationKey) {
+                out += json.citationKey + ', ' + '\n\t';
+            }
+            if (json.entry) {
+                out += json.entry + '\n';
+            }
+            if (json.entryTags) {
+                var tags = '';
+                for (var jdx in json.entryTags) {
+                    if (tags.length !== 0) {
+                        tags += ', ' + '\n\t';
+                    }
+                    tags += jdx + '= {' + json.entryTags[jdx] + '}';
+                }
+                out += tags;
+            }
+            out += '\n';
+            out += '}\n\n';
+            // console.log(out)
+            return out;
+        };
     }
     PublicationsComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.dataservice.getBibList().subscribe(function (response) {
+            response.forEach(function (element) {
+                element.bibtex = _this.toBibtex(element);
+            });
             _this.bibList = response;
         });
     };
     return PublicationsComponent;
 }());
 PublicationsComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-publications',
         template: __webpack_require__("../../../../../src/app/publications/publications.component.html"),
         styles: [__webpack_require__("../../../../../src/app/publications/publications.component.css")],
@@ -2017,7 +2148,7 @@ var RemovecharPipe = (function () {
     return RemovecharPipe;
 }());
 RemovecharPipe = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Pipe */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Pipe */])({
         name: 'removechar'
     })
 ], RemovecharPipe);
@@ -2075,7 +2206,7 @@ var ResearchquestionsComponent = (function () {
     return ResearchquestionsComponent;
 }());
 ResearchquestionsComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-researchquestions',
         template: __webpack_require__("../../../../../src/app/researchquestions/researchquestions.component.html"),
         styles: [__webpack_require__("../../../../../src/app/researchquestions/researchquestions.component.css")]
@@ -2156,7 +2287,7 @@ var SupervisionComponent = (function () {
     return SupervisionComponent;
 }());
 SupervisionComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-supervision',
         template: __webpack_require__("../../../../../src/app/supervision/supervision.component.html"),
         styles: [__webpack_require__("../../../../../src/app/supervision/supervision.component.css")],
@@ -2236,7 +2367,7 @@ var TeachingComponent = (function () {
     return TeachingComponent;
 }());
 TeachingComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-teaching',
         template: __webpack_require__("../../../../../src/app/teaching/teaching.component.html"),
         styles: [__webpack_require__("../../../../../src/app/teaching/teaching.component.css")],

@@ -51,4 +51,12 @@
   "link": "http://commercialtools.dbvis.de",
   "duration": "01/2017 - 05/2017",
   "abstract" : "Five years after the first state-of-the-art report on Commercial Visual Analytics Systems we present an update and supplemental increment on the developments in the Big Data Analytics field. With our paper, we want to build on the success of the 2012 survey, which was influential even beyond the boundaries of the InfoVis and Visual Analytics community. In our comparative approach, we not only reevaluate most systems taken into account in the previous report but also contrast advances in the field with the latest research. To assure comparability we reevaluate systems on established evaluation criteria like available features, performance, and usability. Additionally, we introduce novel metrics, like suitability for specific user groups or the ability of complex data type handling, and a new use case study to highlight innovative features. Further, we investigate previously unavailable products to complete the commercial VA landscape. Our major goal is to emphasize the achievements in the commercial sector regarding proclaimed Visual Analytics challenges and to give suggestions, which novel developments might need to be on systems’ roadmaps in the next years."
+},{
+  "logo" : "images/projects/4dn.png",
+  "alttext" : "4DN Logo",
+  "title" : "4DN Genome Interaction Matrix Pattern Exploration",
+  "goal": "Analysis of Local Patterns in Genome Interaction Matrices",
+  "link": "http://www.4dnucleome.org/",
+  "duration": "05/2017 - 05/2019",
+  "abstract" : "The goals of the 4D Nucleome (4DN) Data Coordination and Integration Center (DCIC) are to collect, store, curate, display, and analyze data generated in the 4DN Network. We have assembled a team of investigators with a strong track record in analysis of chromatin interaction data, image processing and three-dimensional data visualization, integrative analysis of genomic and epigenomic data, data portal development, large-scale computing, and development of secure and flexible cloud technologies."
 }]
