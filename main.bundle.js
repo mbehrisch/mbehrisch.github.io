@@ -1097,12 +1097,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var appRoutes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_13__maincontent_maincontent_component__["a" /* MaincontentComponent */] },
     { path: 'publications', component: __WEBPACK_IMPORTED_MODULE_4__publications_publications_component__["a" /* PublicationsComponent */] },
     { path: 'supervision', component: __WEBPACK_IMPORTED_MODULE_18__supervision_supervision_component__["a" /* SupervisionComponent */] },
     { path: 'teaching', component: __WEBPACK_IMPORTED_MODULE_19_app_teaching_teaching_component__["a" /* TeachingComponent */] },
     { path: 'projects', component: __WEBPACK_IMPORTED_MODULE_21__project_project_component__["a" /* ProjectComponent */] },
+    { path: '#/home', redirectTo: '/home', pathMatch: 'full' },
+    { path: '#/publications', redirectTo: '/publications', pathMatch: 'full' },
+    { path: '#/supervision', redirectTo: '/supervision', pathMatch: 'full' },
+    { path: '#/teaching', redirectTo: '/teaching', pathMatch: 'full' },
+    { path: '#/projects', redirectTo: '/projects', pathMatch: 'full' },
+    // { path: '/home', redirectTo: '/home', pathMatch: 'prefix'},
+    // { path: '/publications', redirectTo: '/publications', pathMatch: 'prefix'},
+    // { path: '/supervision', redirectTo: '/supervision', pathMatch: 'prefix'},
+    // { path: '/teaching', redirectTo: '/teaching', pathMatch: 'prefix'},
+    // { path: '/projects', redirectTo: '/projects', pathMatch: 'prefix'},
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
     // {
     //   path: '',
     //   redirectTo: '/home',
@@ -1594,7 +1604,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!-- FOOTER 1 only social links -->\n<footer id=\"footer1\" class=\"page-section text-center p-100-cont\">\n  <div class=\"container\">\n\n    <!-- Social Links -->\n    <div class=\"footer-soc-a\">\n      <a href=\"https://scholar.google.com/citations?user=12Bl2VgAAAAJ&hl=en\" title=\"Google Scholar\" target=\"_blank\">\n                        <i class=\"ai ai-google-scholar-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://www.linkedin.com/in/michael-behrisch-89144710\" title=\"LinkedIn\" target=\"_blank\">\n                        <i class=\"wow bounceIn fa fa-linkedin-square fa-3x\"></i></a>\n      <a href=\"https://www.researchgate.net/profile/Michael_Behrisch\" title=\"Research Gate\" target=\"_blank\">\n                        <i class=\"wow bounceIn ai ai-researchgate-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://twitter.com/michaelbehrisch\" title=\"Twitter\" target=\"_blank\"><i class=\"wow bounceIn fa fa-twitter-square fa-3x\"></i></a>\n      <a href=\"mailto:mbehrisch@gmail.com\" title=\"Personal Email\" target=\"_blank\"><i class=\"wow bounceIn fa fa-envelope-square fa-3x\"></i></a>\n      <span class=\"text-muted\">Last Update: Sept. 2018</span>\n    </div>\n  </div>\n</footer>"
+module.exports = "<!-- FOOTER 1 only social links -->\n<footer id=\"footer1\" class=\"page-section text-center p-100-cont\">\n  <div class=\"container\">\n\n    <!-- Social Links -->\n    <div class=\"footer-soc-a\">\n      <a href=\"https://scholar.google.com/citations?user=12Bl2VgAAAAJ&hl=en\" title=\"Google Scholar\" target=\"_blank\">\n                        <i class=\"ai ai-google-scholar-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://www.linkedin.com/in/michael-behrisch-89144710\" title=\"LinkedIn\" target=\"_blank\">\n                        <i class=\"wow bounceIn fa fa-linkedin-square fa-3x\"></i></a>\n      <a href=\"https://www.researchgate.net/profile/Michael_Behrisch\" title=\"Research Gate\" target=\"_blank\">\n                        <i class=\"wow bounceIn ai ai-researchgate-square ai-3x\"></i>\n                    </a>\n      <a href=\"https://twitter.com/michaelbehrisch\" title=\"Twitter\" target=\"_blank\"><i class=\"wow bounceIn fa fa-twitter-square fa-3x\"></i></a>\n      <a href=\"mailto:mbehrisch@gmail.com\" title=\"Personal Email\" target=\"_blank\"><i class=\"wow bounceIn fa fa-envelope-square fa-3x\"></i></a>\n      <span class=\"text-muted\">Last Update: April. 2019</span>\n    </div>\n  </div>\n</footer>"
 
 /***/ }),
 
