@@ -141,7 +141,7 @@
   "badgeIconClass": "icon_quotations",
   "link" : "http://ieeevis.org/year/2017/info/papers",
   "date": "July 2017",
-  "image": "http://ieeevis.org/assets/VIS-webbanner2017.jpg"
+  "image": "images/logos/VIS-webbanner2017.jpg"
 },{
   "type" : "Conference",
   "title" : "IEEE BDVA 2018 (Konstanz, Germany)",
@@ -159,7 +159,7 @@
   "badgeIconClass": "icon_chat",
   "link" : "http://www.visinpractice.rwth-aachen.de/",
   "date": "October 2018",
-  "image": "http://www.visinpractice.rwth-aachen.de/assets/gr_session3_thumb.jpg"
+  "image": "images/logos/gr_session3_thumb.jpg"
 },{
   "type" : "Conference",
   "title" : "2x IEEE VAST, 1x TVCG STAR Report 2018 (Berlin, Germany)",
@@ -168,7 +168,7 @@
   "badgeIconClass": "icon_quotations",
   "link" : "http://ieeevis.org/year/2018/info/papers",
   "date": "October 2018",
-  "image": "http://ieeevis.org/assets/VIS-webbanner2018.jpg"
+  "image": "images/logos/VIS-webbanner2018.jpg"
 },{
   "type" : "Honorable Mention",
   "title" : "IEEE VAST 2018",
@@ -186,6 +186,6 @@
   "badgeIconClass": "fa fa-gift",
   "link" : "https://bokcenter.harvard.edu/teaching-awards",
   "date": "April 2019",
-  "image": "http://www.ucr.nl/academic-program/summer-school-program/Documents/Derek%20Bok.jpg"
+  "image": "images/logos/DerekBok.jpg"
 }
 ]
