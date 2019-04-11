@@ -159,7 +159,7 @@
   "badgeIconClass": "icon_chat",
   "link" : "http://www.visinpractice.rwth-aachen.de/",
   "date": "October 2018",
-  "image": "https://pbs.twimg.com/profile_images/1004387679599931392/2KLOlzfd_400x400.jpg"
+  "image": "http://www.visinpractice.rwth-aachen.de/assets/gr_session3_thumb.jpg"
 },{
   "type" : "Conference",
   "title" : "2x IEEE VAST, 1x TVCG STAR Report 2018 (Berlin, Germany)",
@@ -168,7 +168,7 @@
   "badgeIconClass": "icon_quotations",
   "link" : "http://ieeevis.org/year/2018/info/papers",
   "date": "October 2018",
-  "image": "https://pbs.twimg.com/profile_images/926539028035284993/S9cMtks3_400x400.jpg"
+  "image": "http://ieeevis.org/assets/VIS-webbanner2018.jpg"
 },{
   "type" : "Honorable Mention",
   "title" : "IEEE VAST 2018",
