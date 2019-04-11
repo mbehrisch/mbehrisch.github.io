@@ -178,5 +178,14 @@
   "link" : "http://seq2seq-vis.io/",
   "date": "October 2018",
   "image": "assets/thumbs/Strobelt2018.png"
+},{
+  "type" : "Excellence in Teaching Award",
+  "title" : "Derek Bok Teaching Awards",
+  "subtitle" : "CS171 Fall 2018 #ActiveLearningWorks",
+  "message" : "I'm honored!!! I received an Award for an Excellence in Teaching from the Derek Bok Center of Teaching and Learning.",
+  "badgeIconClass": "fa fa-gift",
+  "link" : "https://bokcenter.harvard.edu/teaching-awards",
+  "date": "April 2019",
+  "image": "http://www.ucr.nl/academic-program/summer-school-program/Documents/Derek%20Bok.jpg"
 }
 ]
