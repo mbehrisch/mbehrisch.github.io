@@ -84,9 +84,18 @@
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Teaching Fellow",
+  "position" : "Teaching Fellow | Best Teaching Award",
   "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
   "duration": "Winter term 2018",
+  "organization": "Harvard Univerisity, Cambridge USA"
+},{
+  "title" : "CS271 Topics in Data Visualization",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Teaching Fellow | Co-Instructor",
+  "goal": "This course covers advanced topics in data visualization. Over the course of the semester, we will examine seminal works and recent state-of-the-art research in information visualization, scientific visualization, and visual analytics. Students are encouraged to bring in ongoing or related research. Topics covered in this class include interaction, storytelling, evaluation, color, volume rendering, vector field visualization, visualization in sciences, big data visualization, uncertainty visualization, and visualization for machine learning. Students will work on a semester-long visualization project that will allow them to visualize their own data sets. We will take a structured approach on how to read, analyze, present, and discuss research topics. Furthermore, we will employ peer-feedback and formal design critiques to analyze each other’s work.",
+  "duration": "Spring term 2019",
   "organization": "Harvard Univerisity, Cambridge USA"
 }
 ]
