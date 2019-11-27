@@ -405,14 +405,14 @@ when available.},
 }
 
 @InProceedings{THB+15a,
-  author =    {Twellmeyer, James and Hutter, Marco and Behrisch, Michael and Kohlhammer, J\"{o}rn and Schreck, Tobias},
-  title =     {{The Visual Exploration of Aggregate Similarity for Multi-Dimensional Clustering}},
+  author    = {Twellmeyer, James and Hutter, Marco and Behrisch, Michael and Kohlhammer, J\"{o}rn and Schreck, Tobias},
   booktitle = {IVAPP 2015: Information Visualization Theory and Applications},
-  year =      {2015 - Best Paper Award},
-  pages =     {40--50},
-  journal =   {Proc. Int. Conference on Information Visualization Theory and Applications},
-  owner =     {Michael Behrisch},
-  timestamp = {2015.09.13}
+  title     = {{The Visual Exploration of Aggregate Similarity for Multi-Dimensional Clustering} Best Paper Award},
+  year      = {2015},
+  pages     = {40--50},
+  journal   = {Proc. Int. Conference on Information Visualization Theory and Applications},
+  owner     = {Michael Behrisch},
+  timestamp = {2015.09.13},
 }
 
 @InProceedings{Zhang2012,

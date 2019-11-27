@@ -405,14 +405,14 @@ when available.},
 }
 
 @InProceedings{THB+15a,
-  author =    {Twellmeyer, James and Hutter, Marco and Behrisch, Michael and Kohlhammer, J\"{o}rn and Schreck, Tobias},
-  title =     {{The Visual Exploration of Aggregate Similarity for Multi-Dimensional Clustering}},
+  author    = {Twellmeyer, James and Hutter, Marco and Behrisch, Michael and Kohlhammer, J\"{o}rn and Schreck, Tobias},
   booktitle = {IVAPP 2015: Information Visualization Theory and Applications},
-  year =      {2015 - Best Paper Award},
-  pages =     {40--50},
-  journal =   {Proc. Int. Conference on Information Visualization Theory and Applications},
-  owner =     {Michael Behrisch},
-  timestamp = {2015.09.13}
+  title     = {{The Visual Exploration of Aggregate Similarity for Multi-Dimensional Clustering} - Best Paper Award},
+  year      = {2015},
+  pages     = {40--50},
+  journal   = {Proc. Int. Conference on Information Visualization Theory and Applications},
+  owner     = {Michael Behrisch},
+  timestamp = {2015.09.13},
 }
 
 @InProceedings{Zhang2012,
@@ -569,7 +569,7 @@ and can thus lead to new insights for brain research.},
   eprint    = {http://arxiv.org/abs/1908.05505},
 }
 
-@InProceedings{Roessler2019TexTiles,
+@InProceedings{Roessler2019,
   author    = {Robert Roessler and Caiseen Kelly and Michael Behrisch and Johanna Beyer},
   booktitle = {To appear in 2019 Workshop on Visualization for the Digital Humanities (VIS4DH), Vancouver, Canada, October 20-25, 2019},
   title     = {TexTiles: Exploring Patterns in Historical Discourse},
@@ -577,6 +577,16 @@ and can thus lead to new insights for brain research.},
   month     = {Oct},
   pages     = {1--5},
   abstract  = {Discourse analysis is a well-established method in the humanities to analyze historical trends and knowledge figurations that are inscribed in the texts of an era. While these trends are manifested as linguistic nuances in a variety of ways, the actual discourse remains a rather abstract concept. The goal of our paper is to develop a visual representation of such a discourse. We present TexTiles, a Visual Analytics framework that allows domain specialists to visually trace historical discourses in large text corpora. By allowing scholars to curate a customizable corpus, analyze keywords in context, and ultimately explore the network of these context words within the corpus, TexTiles serves as an exploratory research tool for domain experts. Allowing for a hybrid approach between close and distant reading practices, we demonstrate the utility of our application based on a case study on the discovery of the unconscious and the mechanics of repression in the long 19th century. TexTiles allowed users to trace knowledge formations that occurred already around 1800 leading to Sigmund Freud’s Interpretation of Dreams in 1900.},
+}
+
+@InProceedings{Streeb2017,
+  author    = {Dirk Streeb and Juri Buchmueller and Udo Schlegel and Wolfgang Jentner and Michael Behrisch and Bruno Schneider and Daniel Seebacher},
+  booktitle = {2017 {IEEE} Conference on Visual Analytics Science and Technology ({VAST})},
+  title     = {Uncovering the Mistford Toxic Conspiracy},
+  year      = {2017},
+  month     = {oct},
+  publisher = {{IEEE}},
+  doi       = {10.1109/vast.2017.8585661},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
