@@ -1,0 +1,91 @@
+[{
+  "title" : "Bachelor of Science",
+  "thesis" : "User-Guided Matrix Sorting based on 2D Projections (Benutzergesteuerte Matrix Sortierung basierend auf 2D Projektionen)",
+  "student" : "Michael Hundt",
+  "start" : "2013",
+  "end" : "2013",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Bachelor of Science",
+  "thesis" : "Feedback-Driven Interactive Exploration of Large Multidimensional Data Supported by Self-Organizing Maps",
+  "student" : "Frederik Dennig",
+  "start" : "2016",
+  "end" : "2016",
+  "titleshort": "B.Sc.",
+  "abstract" : "The retrieval of useful data from large multidimensional datasets is one of the most challenging problems. The most important aspect of this problem is that usually only a small portion of the data of a dataset is relevant in respect to a given analysis-goal. Due to this, there is a need for efficient tools, which are able to extract meaningful information from a dataset. In this thesis, we present a new instantiation of the Feedback– Driven Interactive View Exploration (short FDIVE) Pipeline. Our new approach on the exploration of multidimensional datasets is based on interactive Self–Organizing Maps. We mainly use Self–Organizing Maps to partition the dataset into smaller groups of similar data elements. This facilitates the efficient annotation of data as relevant or irrelevant. In this context we introduce the new concept of 'nested Self–Organizing Maps'. The resulting annotation is the basis of the subsequent data reduction step. Self–Organizing Maps also provide a means of visualizing the dataset, thus supporting the analyst in his decision–making. In the scope of our work, we extended the FDIVE Pipeline with two new modules. Firstly, we added the adaptive feature vector selection, which allows the selection of the most descriptive feature vector, based on the annotation, if more than one feature vector is available for the analyzed dataset. Secondly, we added an 'Interaction History', to enable the analyst to return to a previous state of the analysis-process. Furthermore, the 'Interaction History' assists the analyst by visualizing the course and progress of the analysis. We show the usefulness of our work by the examination of usecases and a through evaluation of the 'Interaction History'. We conclude with a discussion of weaknesses and possible improvements.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Subspace Nearest Neighbor Search in High-Dimensional Data: Detecting Relevant Subspaces for Similar Object Retrieval",
+  "student" : "Michael Hund",
+  "start" : "2015",
+  "end" : "2015",
+  "abstract" : "Searching for subspaces in a high-dimensional space is crucial for many different applications. Patterns in the data, detected by clustering, classification or nearest neighbor search, occur often only in a low subset of dimensions (=subspace) of the original high-dimensional space. The detection of these interesting and meaningful subspaces is difficult due to the exponential number of possible combinations of dimensions and the so-called curse of dimensionality which obstructs the application of common data analysis techniques in high-dimensional data. While subspace search has already been applied to clustering and outlier detection, the field of subspace nearest neighbor search has not been addressed by the research community so far. The first part of this master thesis gives a comprehensive introduction into this new research branch by discussing the challenges that arise when searching for different nearest neighbors in different subspaces and the consequential requirements for for subspace nearest neighbor search. Moreover, ideas and aspects for an appropriate subspace model are developed. Additionally, the relation to subspace clustering and subspace outlier detection is described in a comprehensive related work chapter. The main contribution of this thesis is the second part which describes a novel algorithm called SuNCo which detects subspaces based on co-occurring nearest neighbors in different dimensions. Given a user-defined query object q, the algorithm extracts globally characteristic dimensions based on the value of q and determines the set of nearest neighbors in every dimension separately. Afterwards, dimensions are combined to subspaces by intersecting the nearest neighbors of the respective dimensions. Analyzing co-occurring data items in different dimensions differs much from existing approaches that typically analyze the data distribution in a given subspace. With the help of SuNCo, different nearest neighbors in different heterogeneous subspaces can be detected. The last part of this thesis is evaluating of SuNCo by exploring different subspaces and nearest neighbors in a world dataset. Furthermore, the algorithm is tested for scalability and accuracy measures on a synthetic benchmark dataset.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Sketch-based retrieval for Bivariate Data using Image-based Descriptors",
+  "student" : "Lin Shao",
+  "start" : "2013",
+  "end" : "2013",
+  "abstract" : "",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+} ,{
+  "title" : "Master of Science",
+  "thesis" : "Improved similarity computation methods for heterogenous text corpora, exemplified by the comment to news paragraph assignment problem",
+  "student" : "Jürgen Schniertshauer",
+  "start" : "2012",
+  "end" : "2012",
+  "abstract" : "In Information Retrieval (IR), the computation of similarity between text documents has been studied intensively and many approaches exist to date. Techniques include bag-of-words approaches based on term/document frequency vectors or sets of synonyms, techniques from Natural Language Processing such as named entity extraction, sentiment analysis, or feature-based methods. IR applications often consider the matching of full length documents from more or less homogeneous text repositories to each other. Recently however, the Social Web gives rise to novel IR applications in which texts that show to be heterogeneous with respect to size and style of writing, need to be compared. We study the problem of matching short, textually heterogeneous user comments to corresponding sections of full length, professionally edited, news articles. The goal is to identify appropriate similarity functions, which are required for effective layout generation, analysis, or other tasks. We create a ground truth data set from real web news and user data on which we are experimentally compare the effectiveness of matching user comments to news paragraphs based on appropriately defined text similarity functions.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Design and Evaluation of a Focus+Context-based Visualization for Relational Text. (Design und Evaluierung einer fokus- und kontextbasierten Visualisierung für relationale Texte)",
+  "student" : "Matthias Ziecker",
+  "start" : "2012",
+  "end" : "2012",
+  "abstract" : "(In German) Diese Masterarbeit befasst sich mit der Analyse, dem Design und der Evaluierung einer Anwendung zur Darstellung relationaler Texte. Mit Hilfe der Anwendung lassen sich beispielsweise Online-Nachrichtenartikel samt zugehörigen Leser-Kommentaren darstellen. Dafür wurde das Themengebiet anhand von wissenschaftlichen Arbeiten rund um die Darstellung von Texten erschlossen und bewertet. Auf Basis dessen wurde eine Anwendung designt und anschlie-ßend implementiert. Die Anwendung ist in der Programmiersprach Java und der Programmier-schnittstelle (API) für grafische Oberflächen „AWT/SWT“ geschrieben. Im Anschluss der Entwicklung wurde ein Experiment mit 24 zufälligen Probanden durchgeführt, um sowohl die Stärken als auch weiteres Potenzial der Anwendung herauszufinden. Die Anwendung dient primär dazu, dem Leser die Benutzerkommentare passend zum gelesenen Absatz, in einer nach Relevanz geordneten Reihen-folge, darzustellen.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Visual Analytics of Parallel-Performance Data: Automatic Identification of Relevant and Similar Data Subsets",
+  "student" : "Laura von Rueden",
+  "start" : "2015",
+  "end" : "2015",
+  "abstract" : "Performance-analysis tools are indispensable for understanding and optimizing the behavior of parallel programs running on increasingly powerful supercomputers. However, with hardware and software complexity on the rise, performance data and even performance profiles are becoming so data intensive that their analysis poses serious challenges. The solution proposed by this thesis is to simplify the analysis of parallel-performance data through a search-space reduction using visual analytics. This thesis presents a concept for the search-space reduction of profile-based performance data consisting of an automatic identification of (1) relevant, and (2) similar data subsets and investigates suitable methods for both steps. It exemplifies that the potential relevance of performance-data subsets can be estimated with visual-quality analysis applied to their virtual-topology views. It demonstrates further that these views can be classified according to visual features and that the views assigned to each feature class can be partitioned into similarity groups, each representing a particular performance phenomenon. Through the automatic identification of relevant and similar data subsets, this thesis classifies the Sweep3D performance data set in five similarity groups and thus achieves a search-space reduction of 80%. The results of this thesis show that performance profiles can be even more condensed to similarity groups, each representing a particular performance phenomenon. Such a condensation can reduce the time needed for performance analysis significantly.",
+  "titleshort": "M.Sc. Co-Supervision with Marc-Andre Hermans, German Research School for Simulation Science, Aachen",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Feedback-Driven Interactive Exploration of Large Multidimensional Data Supported by Visual Classifier",
+  "student" : "Fatih Korkmaz",
+  "start" : "2014",
+  "end" : "2014",
+  "abstract" : "The extraction of relevant and meaningful information from multi-dimensional data is a challenging problem. One of the reasons is that the number of possible representations grows exponentially with the amount of data dimensions. Also, not all views from a possibly large view space, are potentially relevant to a given analysis task or user. Partially, Focus+Context or Semantic Zoom Interfaces can help to efficiently search for interesting views or data segments by using abstract overview visualizations. Yet these exhibit scalability problems for very large data sets regarding visualization techniques. Accordingly, users are confronted with the problem of identifying interesting views, yet the manual exploration of the entire view space becomes ineffective or even infeasible. While certain quality metrics have been proposed recently to identify potentially interesting views, these often are defined in a heuristic way and do not take into account the application or user context. In this work we introduce a framework for a feedback-driven interactive view exploration, inspired by relevance feedback approaches used in Information Retrieval. Our basic idea is that users iteratively express their notion of interestingness when presented with candidate views. From that expression, a model representing the user’s preferences, is trained and used to recommend further interesting view candidates. A decision support system monitors the exploration process and assesses the relevance-driven search process for convergence and stability. We present an instantiation of our framework for exploration of Scatter Plot Spaces based on visual features. We demonstrate the effectiveness of this implementation by a case study on two real-world datasets and one synthetic dataset. We also discuss our framework in light of design alternatives and point out its usefulness for development of user- and context-dependent visual exploration systems.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Interactive Exploration of Subspaces in Hierarchical Categorical Data",
+  "student" : "Tayyebeh Zad Abedini Masouleh",
+  "start" : "2016",
+  "end" : "2016",
+  "abstract" : "The amount of available categorical data constantly increased over the last decades. With new sources especially in the web environment, e.g. social networks, movie data bases or customer behavior data, appropriate analysis techniques are needed. While not only the size of such data sets tremendously increased in recent years, also the dimensionality reached a point where standard statistical techniques like the analysis of contingency tables quickly reach the limit of feasibility. Furthermore, the goals of analysis are extremely user dependent and therefore vary a lot. In order to overcome these challenges, an analysis system is needed that is able to examine various perspectives of a data set and at the same time able to deal with meta data that can considerably facilitate the knowledge gaining process. Often categorical data can be enhanced by representing the dimensions in a semantic hierarchy. The hierarchical structuring of variables helps to interpret the data as well as the analysis outcome more effectively but also to reveal relationships and patterns in it. Additionally, higher dimensional data constitutes a problem for most analysis techniques since not all of the dimensions need to contain valuable information. As a consequence of these illustrated challenges, the goal of this work is to design a web-based visual analytics tool that provides a set of interactive visualizations coupled with proper analysis methods to find interesting subspaces in the data. Since we do not want to analyze the full range of dimensions at once but rather concentrate on interesting subsets, we follow the idea of a bottom-up approach in which the user himself selects the analyzed dimensions in a semi-automatic way. We created an intuitive and easily accessible analysis platform that excels in a modular set-up. This thesis evolved from a preliminary work, in which an extensive study was conducted to summarize the existing literature of interactions applied on matrix visualizations. Thereby, 105 papers of the years 2003 to 2015 were tagged with a number of keywords. After the creation of this taxonomy data set, the keywords were hierarchically structured. The result was a hierarchical, categorical data set whose first analysis with common methods was not satisfactory for us. Consequently, a second goal of this thesis is to apply the herein presented web-based analysis tool to this taxonomy data set in order to find relationships and similarities between the categories as well as discover missing parts and gaps in the current research of matrix visualizations.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Interactive Evaluation of Feature Vectors for Matrix Patterns",
+  "student" : "Nayeem Khan",
+  "start" : "2016",
+  "end" : "2016",
+  "abstract" : "",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+}
+]
