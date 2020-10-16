@@ -87,5 +87,23 @@
   "abstract" : "",
   "titleshort": "M.Sc.",
   "badgeIconClass": "code"
+},{
+  "title" : "Bachelor of Science",
+  "thesis" : "Evaluating Graphical Perception of Treemaps using Capsule Networks",
+  "student" : "Willem Hulst",
+  "start" : "2020",
+  "end" : "2020",
+  "abstract" : "Due to the prevalence of neural networks in the state-of-the-art in image recognition, it is interesting to examine the perception performance of these networks on graphical data formats. In this project, we pick treemaps as the specific form of data visualisation. A treemap is a form of hierarchical data visualisation, based on square tile mappings. In this project, we will evaluate the perception capabilities of a specific type of neural network: a capsule network (CapsNet). This network is based on layers of vectors (neurons) that read images. Using a unique 'routing by agreement' algorithm, the image data is routed through the network. Images are then classified   based on the interpreted data. The network is trained on a large set of treemaps, and tested using   smaller sets of treemaps with varying features. An evaluation of the graphical perception performance of the CapsNet is conducted, alongside several sub-experiments to examine how resilient   the network is to changes in the image data. We conclude that the trained network performs   classification at an accuracy above the random guess threshold, but it is unsuited for the purpose  of classifying treemaps. Future research is warranted, as novel CapsNet architectures and better   training could improve performance.",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Interactive visual pattern search in large-scale multivariate sequential data using locality sensitive hashing algorithms",
+  "student" : "Dylan Kruyff",
+  "start" : "2020",
+  "end" : "2021",
+  "abstract" : "TBD",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
 }
 ]
