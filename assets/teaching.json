@@ -3,7 +3,7 @@
   "type" : "Lecture",
   "badgeClass": "primary",
   "badgeIconClass": "school",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Master of Science",
   "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
   "duration": "Summer term 2012",
   "organization": "University of Konstanz"
@@ -12,7 +12,7 @@
   "type" : "Lecture",
   "badgeClass": "primary",
   "badgeIconClass": "school",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Bachelor of Science",
   "goal": "Lerninhalte:, Grundlegende Methoden des Data Mining, Datenaufbereitung und Datenvorverarbeitung, Gebräuchliche Analysealgorithmen und -methoden, Grundlagen der Informationsvisualisierung, Menschliche Wahrnehmung und Visualisierungsdesign, Visualisierungsmöglichkeiten verschiedener Daten",
   "duration": "Winter term 2012",
   "organization": "University of Konstanz"
@@ -21,7 +21,7 @@
   "type" : "Lecture",
   "badgeClass": "primary",
   "badgeIconClass": "school",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Bachelor of Science",
   "goal": "Lerninhalte: Funktionalität, Architektur und Realisierungskonzepte von Datenbanksystemen, Grundlegendes Verständnis über den Aufbau und die Funktionsweise von Datenbanksystemen und deren Nutzung, Konzeptionelle Datenmodellierung mit Hilfe des Entity-Relationship-Modells und die Abbildung auf relationale Datenbankschemata, Verständnis der Sprachkonstrukte von SQL und deren Verbindung zu mathematisch präzisen Formalismen (Algebra, Kalkül), Funktionsweise und Abstraktionsmechanismen der transaktionsorientierten Verarbeitung, Synchronisations- und Recovery-Probleme erkennen und grundsätzliche Lösungsmöglichkeiten aufzeigen",
   "duration": "Summer term 2013",
   "organization": "University of Konstanz"
@@ -30,7 +30,7 @@
   "type" : "Lecture",
   "badgeClass": "primary",
   "badgeIconClass": "school",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Master of Science",
   "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
   "duration": "Summer term 2014",
   "organization": "University of Konstanz"
@@ -39,7 +39,7 @@
   "type" : "Lecture",
   "badgeClass": "primary",
   "badgeIconClass": "school",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Master of Science",
   "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
   "duration": "Summer term 2015",
   "organization": "University of Konstanz"
@@ -48,7 +48,7 @@
   "type" : "Lecture",
   "badgeClass": "primary",
   "badgeIconClass": "school",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Master of Science",
   "goal": "Lerninhalte: Grundlagen von Multimedia Datenbanksysteme, Ähnlichkeitsmodelle für Bilder, Geometrische Ähnlichkeitsmodelle, 3D-Model-Retrieval, Exkurse zu weiteren Multimedia Datenarten und Spezialanwendungen, z.B. Audiodaten, Zeitseriendaten, und Biometrie (z.B. Gesichtserkennung, Fingerabdruckerkennung). Algorithmen für Bereichs- und kNN-Anfragen, Indexstrukturen für hochdimensionale Vektorräume, Metrische Indexstrukturen",
   "duration": "Summer term 2016",
   "organization": "University of Konstanz"
@@ -57,7 +57,7 @@
   "type" : "Seminar",
   "badgeClass": "info",
   "badgeIconClass": "library_books",
-  "position" : "Teaching Assistent",
+  "position" : "Teaching Assistent | Master of Science",
   "goal": "Lerninhalte: Selbständiges wissenschaftliches Arbeiten am Beispiel eines fachspezifischen Themas, Literatur Recherche , Vergleich und Bewerten von Forschungs-Arbeiten , Thema erarbeiten und verständlich präsentieren , Nutzung von Präsentations-Medien , wissenschaftliches Schreiben",
   "duration": "Summer term 2016",
   "organization": "University of Konstanz"
@@ -66,7 +66,7 @@
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Full Lecturer",
+  "position" : "Full Lecturer | Master of Science",
   "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
   "duration": "Winter term 2016",
   "organization": "University of Konstanz"
@@ -75,7 +75,7 @@
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Teaching Fellow",
+  "position" : "Teaching Fellow | Undergraduate Level",
   "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
   "duration": "Winter term 2017",
   "organization": "Harvard Univerisity, Cambridge USA | https://cs171.org"
@@ -84,7 +84,7 @@
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Teaching Fellow | Best Teaching Award",
+  "position" : "Teaching Fellow | Best Teaching Award | Undergraduate Level",
   "goal": "Students understand the principles of Information Visualization. (1) Students are enabled to preprocess, analyze and visualize large amounts of unknown data. (2) Students are enabled to analyze existing Information Visualization systems with respect to effectiveness and expressiveness, and systematically design systems for new application areas.",
   "duration": "Winter term 2018",
   "organization": "Harvard Univerisity, Cambridge USA | https://cs171.org"
@@ -93,7 +93,7 @@
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Teaching Fellow | Co-Instructor",
+  "position" : "Teaching Fellow | Co-Instructor | Graduate Level",
   "goal": "This course covers advanced topics in data visualization. You will examine seminal works and recent state-of-the-art research in information visualization, scientific visualization, and visual analytics. Topics covered in this class include interaction, storytelling, evaluation, color, volume rendering, vector field visualization, visualization in sciences, big data visualization, uncertainty visualization, and visualization for machine learning. Students will work on a semester-long visualization project that will allow them to visualize their own data sets. We will take a structured approach on how to read, analyze, present, and discuss research topics. Furthermore, we will employ peer-feedback and formal design critiques to analyze each other’s work.",
   "duration": "Spring term 2019",
   "organization": "Harvard Univerisity, Cambridge USA | https://cs-271.github.io/"
@@ -102,27 +102,63 @@
   "type" : "Lecture/Practical",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Lecturer",
+  "position" : "Lecturer | Bachelor of Science",
   "goal": "In the software project, a team of students develops a system for a (practical) challenge for a client. The software project teaches students how theoretical knowledge can be translated into an actual solution, what problems can arise when developing software in a team, and how these problems can be tackled. The learning goals of the project are as follows:   Working together in a team  Dealing with customer contact   Converting the wishes of the customer into a working prototype   Developing a larger (than in other subjects) software system   Planning a long-term project with multiple people on the team using SCRUM.   Delivering the right products at the right times (planning, design, software, etc.)  Structured reporting on project progress   Presenting intermediate and final results",
-  "duration": "Summer term 2020",
+  "duration": "Period 1 2020",
   "organization": "Utrecht University, NL | https://cursusplanner.uu.nl/course/INFOSP/2020/SEM1"
 },{
   "title" : "INFOGR Computer Graphics",
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Lecturer",
+  "position" : "Lecturer | Bachelor of Science",
   "goal": "Course: Graphics is an introductory course about computer graphics. Computer graphics deals with the algorithmic processing of visual (images) and spatial (geometry) data. The course will focus on the very basics of modeling and rendering, i.e., the mathematical description of three-dimensional scenes and how to create (realistic) images of such models. Rendering Algorithms: We have several options to convert the mathematical representation of a virtual world into a digital image. Modern games typically rely on the z-buffer algorithm. An alternative approach is ray tracing. In this course we will explore both methods. Ray tracing allows us to produce 'correct' images; rasterization lets us approximate this in real-time. Math: An important aspect of computer graphics is the use of mathematics. This course provides a short coverage of the mathematical basics needed for rendering. We will introduce fundamental concepts of linear algebra and other areas of higher mathematics that are important far beyond the field of graphics.",
-  "duration": "Summer term 2020",
+  "duration": "Period 2 2020",
   "organization": "Utrecht University, NL | https://jacco.ompf2.com/gr20/index.html"
 },{
   "title" : "INFOB2DA Data Analytics",
   "type" : "Lecture",
   "badgeClass": "info",
   "badgeIconClass": "school",
-  "position" : "Lecturer",
+  "position" : "Lecturer | Bachelor of Science",
   "goal": "Applied data analytics is a multidisciplinary field where you will learn insights needed to make sense of data, research, and observations from everyday life. You will learn how to apply a data-driven approach to problem-solving, but will not only learn about tools, methods, and techniques, or the latest trends, but also more generic insights: why do certain approaches work, why the field is so popular, what common mistakes are made. The lectures will provide the theoretical background of how a data analytics process should be performed. Furthermore, we discuss an overview of popular data analytics and visualization techniques to help match techniques with information needs, including applications of text mining and data enrichment. ",
-  "duration": "Winter term 2020/2021",
-  "organization": "Utrecht University, NL | https://viguu.gitlab.io/infob2da/"
+  "duration": "Period 3 2020/2021",
+  "organization": "Utrecht University, NL | https://infob2da.gitlab.io/2020/"
+},{
+  "title" : "INFOB2DA Data Analytics",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Lecturer | Bachelor of Science",
+  "goal": "Applied data analytics is a multidisciplinary field where you will learn insights needed to make sense of data, research, and observations from everyday life. You will learn how to apply a data-driven approach to problem-solving, but will not only learn about tools, methods, and techniques, or the latest trends, but also more generic insights: why do certain approaches work, why the field is so popular, what common mistakes are made. The lectures will provide the theoretical background of how a data analytics process should be performed. Furthermore, we discuss an overview of popular data analytics and visualization techniques to help match techniques with information needs, including applications of text mining and data enrichment. ",
+  "duration": "Period 1 2021/2022",
+  "organization": "Utrecht University, NL | https://infob2da.gitlab.io/2021/"
+},{
+  "title" : "INFOSP Software Project",
+  "type" : "Lecture/Practical",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Lecturer | Bachelor of Science",
+  "goal": "In the software project, a team of students develops a system for a (practical) challenge for a client. The software project teaches students how theoretical knowledge can be translated into an actual solution, what problems can arise when developing software in a team, and how these problems can be tackled. The learning goals of the project are as follows:   Working together in a team  Dealing with customer contact   Converting the wishes of the customer into a working prototype   Developing a larger (than in other subjects) software system   Planning a long-term project with multiple people on the team using SCRUM.   Delivering the right products at the right times (planning, design, software, etc.)  Structured reporting on project progress   Presenting intermediate and final results",
+  "duration": "Period 1/2 2021/2022",
+  "organization": "Utrecht University, NL | https://cursusplanner.uu.nl/course/INFOSP/2021/SEM1"
+},{
+  "title" : "INFOB2DA Data Analytics",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Lecturer | Bachelor of Science",
+  "goal": "Applied data analytics is a multidisciplinary field where you will learn insights needed to make sense of data, research, and observations from everyday life. You will learn how to apply a data-driven approach to problem-solving, but will not only learn about tools, methods, and techniques, or the latest trends, but also more generic insights: why do certain approaches work, why the field is so popular, what common mistakes are made. The lectures will provide the theoretical background of how a data analytics process should be performed. Furthermore, we discuss an overview of popular data analytics and visualization techniques to help match techniques with information needs, including applications of text mining and data enrichment. ",
+  "duration": "Period 1 2022/2023",
+  "organization": "Utrecht University, NL | https://infob2da.gitlab.io/2022/"
+},{
+  "title" : "INFOMVIS Information Visualization",
+  "type" : "Lecture",
+  "badgeClass": "info",
+  "badgeIconClass": "school",
+  "position" : "Lecturer | Master of Science",
+  "goal": "The course covers information visualization from a broad multidisciplinary perspective. Rather than focusing on a specific application or data type, it aims to prepare students to design, understand, and evaluate information visualizations for any application domain that involves typical dataset models such as tables and hierarchies. The taught material is evenly balanced between design, realization, and evaluation of information visualization solutions, as all three elements are essential to the success of such applications. For all these three perspectives, the course teaches key methods and tools that visualization practitioners can use to achieve the specific requirements.",
+  "duration": "Period 2 2022/2023",
+  "organization": "Utrecht University, NL | https://infomvis.gitlab.io/2022/"
 }
 ]

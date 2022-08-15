@@ -102,7 +102,119 @@
   "student" : "Dylan Kruyff",
   "start" : "2020",
   "end" : "2021",
-  "abstract" : "TBD",
+  "abstract" : "As modern technology keeps advancing, more and more data is generated every second. Multiple sensors and devices produce continuous data streams (multivariate time series) which can contain a lot of interesting information (patterns).  But finding these patterns is far from trivial, as the data is too large for a human to understand and find patterns, yet the ‘interestingness’ of a pattern is hard to capture by unsupervised machine learning alone because of the complexity of patterns in this type of data. In my upcoming presentation I will discuss how we can solve the problem of finding interesting patterns in multivariate time series by combining the strengths of human expertise and machine learning. Using relevance feedback and locality sensitive hashing, we can achieve this goal in real-time and make the process intuitive by using visual analytics.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Bachelor of Science",
+  "thesis" : "Evaluating Graphical Perception of Treemaps using Capsule Networks",
+  "student" : "Willem Hulst",
+  "start" : "2020",
+  "end" : "2020",
+  "abstract" : "Due to the prevalence of neural networks in the state-of-the-art in image recognition, it is interesting to examine the perception performance of these networks on graphical data formats. In this project, we pick treemaps as the specific form of data visualisation. A treemap is a form of hierarchical data visualisation, based on square tile mappings. In this project, we will evaluate the perception capabilities of a specific type of neural network: a capsule network (CapsNet). This network is based on layers of vectors (neurons) that read images. Using a unique 'routing by agreement' algorithm, the image data is routed through the network. Images are then classified   based on the interpreted data. The network is trained on a large set of treemaps, and tested using   smaller sets of treemaps with varying features. An evaluation of the graphical perception performance of the CapsNet is conducted, alongside several sub-experiments to examine how resilient   the network is to changes in the image data. We conclude that the trained network performs   classification at an accuracy above the random guess threshold, but it is unsuited for the purpose  of classifying treemaps. Future research is warranted, as novel CapsNet architectures and better   training could improve performance.",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Bachelor of Science",
+  "thesis" : "Multivariate NodeTrix Visualization",
+  "student" : "Casper Stiekema",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "As big data sets become easier to collect, hardware becomes more capable and algorithms become faster and more efficient, it is important that the tools people use to keep data readable evolves as well. This is done by developing data visualization models and distributing existing theoretical models as usable tools on platforms. One of these developed models is NodeTrix, a network representation model. It uses a combination of node-link diagrams, for the global overview, and matrices, for dense clusters, to show networks. The interactive data representation tool, allows analysts to create a clear visualization of communities. In this project, we attempt to move NodeTrix into the browser environment, so that it can be more easily accessed. The expected result is, the web-browser draft-version of NodeTrix that additionally allows for directed network visualization.",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+} 
+,{
+  "title" : "Bachelor of Science",
+  "thesis" : "Semantic Substrates Implementation with current Web-technologies",
+  "student" : "Boris de Graaf",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "In order to explore the, potentially high-dimensional, data aspects within graph/relational/ network data Semantic Substrates has been proposed by Shneiderman et al. tes}. This important visualization's implementation is outdated and not web-capable rendering it insufficient for current research efforts. The goal of this project is to develop and implement a scalable and modifiable, web-based implementation and software architecture for Semantic Substrates. This architecture will be based on React components and will externalize data handling into state-of-the-art data handling frameworks, like Redux.",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Bachelor of Science",
+  "thesis" : "Deep learning multidimensional projections using feed-forward networks with steerable input",
+  "student" : "Joep Robben",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "Research of Espadoto, Hirata and Telea found that classic dimensionality reduction (DR) methods suffer from disadvantages. They, therefore, used deep neural networks to perform the task of dimensionality reduction more efficiently. The neural networks are trained with training data and precomputed projections, which were generated by classic DR methods, such as t-SNE. Then the neural network, which now serves as a universal function approximator, can be used to generate new, accurate projections by providing it with test data. The research claimed that this technique can be applied to any DR method, and that it will be more efficient than the standard method. This claim will be the foundation of this thesis. We will build upon the research of Espadoto et al. by introducing (variational) auto-encoder networks of PCA, UMAP, MDS and t-SNE projections. To further expand their methods, we will introduce the possibility of training one network on multiple DR methods simultaneously. Therefore, in the inference phase, a user can choose the exact proportions of different DR methods they want the neural network to replicate. To measure the performance of the neural networks, a standard evaluation procedure will be determined by creating a loss/ cost function  ",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+}
+,{
+  "title" : "Bachelor of Science",
+  "thesis" : "Metric Research in the Lean Analytics: A Case Study of GraphPolaris",
+  "student" : "Roan Bijleveld",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "Over the last few decades, a lot of research has been done on different user-interface research methodologies. However, academic experiments on these methods have rarely been performed with automated large-scale tools that can retrieve information showing which updates/implementations have an effect. Modern day webtools have the ability to automatically accumulate large amounts of user data and run automated experiments. This research focusses on the validation of these tools to help data-driven startups. GraphPolaris is a startup that focusses on the interactive visual exploration of graph data through visual analytics. The company is a lean startup that shortens the development cycle and focusses on validating iterative releases based on customer feedback. This type of setup can be a potential testbed for my research. My goal for this project is to do research on the business intelligence part of the company called 'Lean Analytics'. Examples of this are finding ways to retrieve general usage statistics and researching and setting up A/B testing facilities. The objective here is to find both qualitative and quantitative metrics that show the team which updates/implementations have an effect on the product. In addition to this, we create a framework to place these metrics on a scale from positive to negative effects. These metrics can guide the team on which parts of the product to iterate. My goal for this project is to find at least one set of actionable metrics that can be implemented for the daily operations of the GraphPolaris team and for the improvement of the company. The project would be successful if the metrics given provided the company with a positive influence on daily operations.",
+  "titleshort": "B.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Measuring the quantity of differential privacy for users records data: A visualization approach",
+  "student" : "Bruno Dubota",
+  "start" : "2020",
+  "end" : "2021",
+  "abstract" : "Nowadays, more than ever data comes from different sources, providing an  opportunity to various threads. Various privacy issues such as linkage, data breaches, false identities and other frauds concern both people and organizations.  In order to deal with such a problem, the term Privacy-preserving  approaches with Differential Privacy as the leading mechanism was invented.  Local Differential Privacy can be achieved by adding randomized noise into  the dataset, however, too much noise could affect data quality and value of  the dataset. The thesis aims to introduce a visualization system that can  help users understand how the privacy mechanism affects data and how to  adjust noise added by those algorithms. In order to provide such a framework,  it was decided to implement Local Differential Privacy with Randomized  Response as a mechanism that would be displayed through visualization  system. Moreover, specific metrics for inspecting data privacy and utility  will be used to evaluate the mechanism's performance. By creating an interactive  visualization system that offers to adjust the epsilon parameter with  slider and instantly presenting different graphics, users will understand how  privacy affects data utility, and the opposite. In addition, including tabs in  the visualization framework that offers to view various visualization results,  users will be able to choose between insights they are interested in. The aim is to answer research questions by proposing a visualization perspective on  the Differential privacy mechanism and a specific dataset.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Partial RDF Schema Retrieval",
+  "student" : "Koray Poyraz",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "There are various data structures that represent data interrelationships in the universe of information. One is a graph-based data structure, which depicts a collection of entities connected by relationships. Resource Description Framework (RDF) is a widely used data model that facilitates the storage of graph-based data. This system, unlike standardised SQL, lacks a consistent schema that evolves over time. When presenting a complete schema is crucial, the loose standards combined with timeout limits in the retrieval process pose a challenge. The objective of this master's thesis is therefore to develop a partial schema retrieval pipeline in order to solve the previously outlined problem. We evaluate the quality of our approach by measuring performance and completeness. This is conducted by running the pipeline against several SPARQL-endpoints. The pipeline lays the foundation for retrieving partial graph schemas per iteration. The result is a rendered set of visualisations of partial schemas displayed in a hierarchical aggregated view. This should provide the ability to iteratively express portion of a graph, regardless of the evolving schema.  ",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+}
+,{
+  "title" : "Master of Science",
+  "thesis" : "A step towards Linked Open Data by incrementally visualizing an emergent RDF schema",
+  "student" : "Irma Mastenbroek",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "Graphs are a popular way to store and visualize information. In the era of big data, the need for scalable and interactive visualization tools rises. In the Linked Open Data cloud, objects, events or concepts are described to have some pre-defined relationship to other entities. In a purely theoretical sense, one could create one huge knowledge graph of all interrelations of all available information known to man. However, due to historical reasons not all graph data structures are consistent and the visualization techniques for graphs do not scale up well. In this thesis, we will focus on emerging a schema of data stored in a Resource Description Framework (RDF) format. An example of data stored in RDF manner is DBpedia, a project aiming to extract all structured content created on Wikipedia. The retrieval of specific facts from an RDF dataset is often hindered by the lack of schema knowledge, further complicated by noisy data, annotation mistakes and time-outs when queries are too demanding. A schema can be seen as a clustering of the RDF-triples, downscaling the graph making interpretation and visualization possible. In this research we create an interactive node-link visualization of the global schema that enables users to discover the schema of any big RDF dataset. The tool is capable of iteratively expanding the graph as new parts of the graph arrive from the backend.  ",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+}
+,{
+  "title" : "Master of Science",
+  "thesis" : "Generating benchmark data for Scagnostics: laying the foundation for deep learning applications",
+  "student" : "Bram Dijkers",
+  "start" : "2022",
+  "end" : "2022",
+  "abstract" : "Visual quality metrics have become essential tools for practical data exploration in high dimensional datasets. A popular visual quality metric for scatterplots is Scagnostics, as it captures the visual presence of nine different metrics. Since its publication in 2005, Scagnostics have   been applied in several other tools to detect anomalies in time series,   sort large scatterplot matrices or find specific patterns in datasets.   Researchers have used various datasets to test and validate the performance of their newly developed tools. However, it is unlikely that these datasets represent the entire pattern space of Scagnostics due to the complexity and number of possibilities found in Scagnostics. This research presents a novel method for capturing Visual Quality Metrics into a benchmark dataset. Datasets are iteratively generated through random perturbations of data points and directed towards different directions through a simulated annealing optimisation strategy. With the computational efficiency of high-performance computing, we are able to generate datasets with hundreds of thousands of diverse scatterplots representing the complete Scagnostic space. We observed the relationships between the nine different metrics and visualised how ranges of metrics exclude each other. Additionally, we aim to create datasets that could be used as training data for a deep learning model to improve the efficieny and compatibility of Visual Quality Metrics.",  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+}
+,{
+  "title" : "Master of Science",
+  "thesis" : "Matrix reordering with GraphEmbeddings",
+  "student" : "Job Heuvelmans",
+  "start" : "2021",
+  "end" : "2022",
+  "abstract" : "Previous research in graph embedding concentrates mainly on using embeddings for downstream machine learning tasks such as node classification, edge prediction and, to a lesser extent, on visualizing these embeddings for analytical examination. This study aims to determine whether high dimensional graph embeddings can be used to uncover structures in graphs, and visualize these in two dimensional matrices. We propose a framework that embeds a graph in high dimensions; calculates the pairwise distance matrix; reorders rows and columns in this matrix; and visualizes the original graph in a new matrix exploration tool. The goal of this framework is to supply individuals with high level knowledge on relational data. We test the framework by analyzing visual quality by feeding in basic pre-generated graphs. The random walk algorithms (e.g. DeepWalk, Walkets and attentionWalk) are able to accurately visualize 4 out of 6 of the canonical data patterns for a high level understanding of the data. Nevertheless, these basic graphs do not re ect complex relational data used in many real world applications, and therefore, we introduce two novel algorithms for embedding numerical node-attributed graphs (i.e. featPMI and featWalk). These algorithms are tested on a subset of the attributed Slovakian social network Pokec, in which both the algorithms show increasing information retention over the naive embedding of DeepWalk. Furthermore, featWalk is found to be preferred over featPMI with a clearer separation of patterns, and better feature preservation. Our findings indicate the potentiality of embeddings to generate valuable high level matrix visualizations.",
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "E-sports Moneyball: Clustering the professional players of League of Legends using Node2Vec",
+  "student" : "Oscar Hsieh",
+  "start" : "2021",
+  "end" : "2021",
+  "abstract" : "Coaches, analysts and scouts are an essential part of a sports team as they bring valuable insight from the sideline. They are the key factors for player selection and strategies that impact the team. However, as statist- ics of the players do not tell the whole story, it increases the difficulty of the corresponding tasks. The recent advances in information retrieval open new opportunities by extracting information directly from videos. We demonstrate this in the field of e-sports, specifically in League of Legends. In this research, a variational autoencoder (VAE) is used to improve data analysis and decision-making with the help of spatio-temporal data and statistical data. Applying a variety of visualization methods together with the features of the VAE, we were able to provide analyses that would oth- erwise be impossible. The experiments were carried out and evaluated with technical evaluation (Model performance) and qualitative evaluation (Interviews). The results are as follows: 1. The model overfits below 100 epochs, and overfit when the epochs increase above 100 epochs 2. The user interface is clear and intuitive. The tools designed provide their own way of analysis and insight 3. Though the VAE is able to detect players that are similar to each other based on a variety of variables, the accuracy of the performance could be improved Even though the performance of the model was not as optimal as we ought to have, the techniques used were valuable and could with certainty be replicated given the right circumstances. Discarding the traditional statistical methods, this thesis shows a new approach to enhance the job of the coaches, analysts, and scouts in every type of sports and e-sports.", 
+  "titleshort": "M.Sc.",
+  "badgeIconClass": "code"
+},{
+  "title" : "Master of Science",
+  "thesis" : "Interactive visual pattern search in large-scale multivariate sequential data using locality sensitive hashing algorithms",
+  "student" : "Rik Koenis",
+  "start" : "2021",
+  "end" : "2021",
+  "abstract" : "This thesis will be written during an internship at TNO on a project called Defraudify. We will be supplied with a graph-structured database that covers a significant portion of the dark web in terms of descriptive features such as user profiles, products, malware, advertisements, forum discussions and instances of fraudulent behaviour. The goal is to perform an analysis on the multivariate dataset in the context of Cyber Threat Intelligence, which aims to find actionable insights on existing and emerging threats in the information security domain. We intend to blend novel explainable artificial intelligence techniques alongside interpretable latent space representations in order to externalize the underlying decision making and behaviour of variational graph autoencoders (VGAEs). VGAEs learn interpretable latent vector representations (embeddings) from graph-structured data, and rely on Graph Convolutional Networks (GCNs) to compute the embeddings of nodes in a graph. We hypothesize that, with an interactive visual exploration tool we can externalize the behaviour and hidden representations produced by VGAEs in order to improve their explainability and interpretability. Consequently, building trust in these models. With the interactive exploration interface we intend to externalize hidden patterns discovered in the database to help TNO better understand the data and find potential instances of fraud. In addition, VGAEs can be used for link prediction, which could help complement the database.", 
   "titleshort": "M.Sc.",
   "badgeIconClass": "code"
 }

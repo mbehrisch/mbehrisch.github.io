@@ -238,5 +238,65 @@
     "link": "https://www.uu.nl/en/organisation/department-of-information-and-computing-sciences",
     "date": "November 2019",
     "image": "images/logos/UULogo.png"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Invitation: Interactive Visualization for Fostering Trust in AI",
+    "message": "My first Dagstuhl Seminar Invitation! I'm humbled.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://drops.dagstuhl.de/opus/volltexte/2021/13736/pdf/dagrep_v010_i004_p037_20382.pdf",
+    "date": "September 2020",
+    "image": "images/logos/Dagstuhl.png"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Visualization of Biological Data - From Analysis to Communication",
+    "message": "Working with the top researchers in the Biological Data (Visualization) field.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://drops.dagstuhl.de/opus/volltexte/2022/15915/pdf/dagrep_v011_i009_p001_21401.pdf",
+    "date": "October 2021",
+    "image": "images/logos/Dagstuhl.png"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Bringing Graph Databases and Network Visualization Together",
+    "message": "3x Dagstuhl Invitations in 2 Years. This topic won my heart as it relates to GraphPolaris.com.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=22031",
+    "date": "Januar 2022",
+    "image": "images/logos/Dagstuhl.png"
+  },
+  {
+    "type": "Best Paper Award",
+    "title": "EuroVA 2022",
+    "subtitle": "Multivariate Time Series Retrieval with Symbolic Aggregate Approximation, Regular Expression, and Query Expansion",
+    "message": "We received the best paper award from EuroVA 2022.",
+    "badgeIconClass": "fa fa-gift",
+    "link": "https://www.eurova.org/best-papers-2022",
+    "date": "June 2022",
+    "image": "assets/thumbs/Yu2022SaxRegEx.png"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Interactive Visualization for Fostering Trust in ML",
+    "message": "4x Dagstuhl Invitations in 2 Years. Great discussions on Explainable AI and Visual Analytics.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22351",
+    "date": "August 2022",
+    "image": "images/logos/Dagstuhl.png"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Set Visualization and Uncertainty",
+    "message": "Great discussions on Explainable AI and Visual Analytics.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22462",
+    "date": "August 2022",
+    "image": "images/logos/Dagstuhl.png"
   }
 ]
