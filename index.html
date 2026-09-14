@@ -16,6 +16,31 @@
     <meta name="author" content="Michael Behrisch"/>
     <meta name="theme-color" content="#2a2b2f"/>
 
+    <!--
+      Recovery half of the spa-github-pages trick (see 404.html): restores
+      the originally-requested deep-link path (e.g. /supervision) that
+      404.html encoded into the query string, before Angular's router
+      initializes, so it sees the correct route on load.
+    -->
+    <script>
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+
     <!-- FAVICONS -->
     <link rel="shortcut icon" href="images/favicon/favicon.png"/>
     <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png"/>
@@ -90,5 +115,5 @@
 
   <body>
     <app-root></app-root>
-  <script src="runtime.7d89127be51903e4.js" type="module"></script><script src="polyfills.713ef302f3beac7a.js" type="module"></script><script src="scripts.a5f9dca4c7ae2c37.js" defer=""></script><script src="main.6bc9b5f83323458e.js" type="module"></script></body>
+  <script src="runtime.7d89127be51903e4.js" type="module"></script><script src="polyfills.713ef302f3beac7a.js" type="module"></script><script src="scripts.a5f9dca4c7ae2c37.js" defer=""></script><script src="main.b8bfd61097c20714.js" type="module"></script></body>
 </html>

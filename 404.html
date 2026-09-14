@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Michael Behrisch</title>
+
+    <!--
+      GitHub Pages serves this file for any path with no matching static
+      file - which, for a client-side-routed Angular app, is every deep
+      link (e.g. /supervision) loaded directly or refreshed, since only
+      index.html actually exists as a file. Angular's router only takes
+      over once index.html's JS has loaded, so without this redirect
+      those URLs 404 before the app ever gets a chance to run.
+
+      This is the standard "spa-github-pages" trick (see
+      https://github.com/rafgraph/spa-github-pages): redirect back to the
+      site root, encoding the originally-requested path into the query
+      string, then index.html's own recovery script restores it via
+      history.replaceState before Angular's router initializes.
+    -->
+    <script>
+      var pathSegmentsToKeep = 0; // user/org root site (mbehrisch.github.io), not a /project-name/ subpath
+
+      var location = window.location;
+      var redirectUrl =
+        location.protocol +
+        "//" +
+        location.hostname +
+        (location.port ? ":" + location.port : "") +
+        location.pathname
+          .split("/")
+          .slice(0, 1 + pathSegmentsToKeep)
+          .join("/") +
+        "/?/" +
+        location.pathname.slice(1).replace(/&/g, "~and~") +
+        (location.search
+          ? "&" + location.search.slice(1).replace(/&/g, "~and~")
+          : "") +
+        location.hash;
+
+      location.replace(redirectUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
