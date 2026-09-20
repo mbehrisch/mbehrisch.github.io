@@ -13926,6 +13926,16 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     font-size: 11pt;
 }
 
+/* Shared body-copy treatment for the research-topic pages (Knowledge Graph
+   Analytics, Visual Quality Metrics, Human-in-the-Loop Visual Analytics,
+   Trustworthy & Grounded AI, Industry Projects) and any other standalone
+   page that wants the same larger, more readable intro paragraphs used on
+   the homepage Value Proposition section and the Coaching/Masterclasses
+   pages, instead of the default 11pt .authors size. */
+.page-intro p.authors {
+    font-size: 1.3em;
+    line-height: 1.6;
+}
 
 .venue {
     margin-top: 0pt;
