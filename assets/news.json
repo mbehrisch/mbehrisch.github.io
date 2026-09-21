@@ -80,6 +80,16 @@
     "image": "assets/thumbs/THB+15a.png"
   },
   {
+    "type": "Best Paper Award",
+    "title": "IEEE BDVA 2015",
+    "subtitle": "Guiding the Exploration of Scatter Plot Data Using Motif-based Interest Measures",
+    "message": "I'm honored to have received a best paper award at IEEE BDVA 2015.",
+    "badgeIconClass": "fa fa-gift",
+    "link": "https://doi.org/10.1109/BDVA.2015.7314294",
+    "date": "September 2015",
+    "image": "assets/thumbs/bdva15.png"
+  },
+  {
     "type": "Conference",
     "title": "EuroVis 2016 (Groningen, Netherlands)",
     "subtitle": "Matrix Reordering Methods for Table and Network Visualization",
@@ -280,6 +290,16 @@
     "image": "assets/thumbs/Yu2022SaxRegEx.png"
   },
   {
+    "type": "Best Paper Award",
+    "title": "IEEE VDS 2022",
+    "subtitle": "PSEUDo: Interactive Pattern Search in Multivariate Time Series with Locality-Sensitive Hashing and Relevance Feedback",
+    "message": "We received the best paper award at IEEE VDS 2022.",
+    "badgeIconClass": "fa fa-gift",
+    "link": "https://doi.org/10.1109/TVCG.2022.3209431",
+    "date": "October 2022",
+    "image": "assets/thumbs/yu2022vds.png"
+  },
+  {
     "type": "Personal Invitation",
     "title": "Dagstuhl Seminar",
     "subtitle": "Interactive Visualization for Fostering Trust in ML",
@@ -297,6 +317,96 @@
     "badgeIconClass": "icon_quotations",
     "link": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22462",
     "date": "August 2022",
+    "image": "images/logos/Dagstuhl.png"
+  },
+  {
+    "type": "Best Paper Award",
+    "title": "EuroVA 2023",
+    "subtitle": "ShaRP: Shape-Regularized Multidimensional Projections",
+    "message": "We received the best paper award from EuroVA 2023.",
+    "badgeIconClass": "fa fa-gift",
+    "link": "https://doi.org/10.2312/eurova.20231088",
+    "date": "June 2023",
+    "image": "https://pub-39658beb20e44562b6da3258585e7e5f.r2.dev/papers/E8IMS9CC/cover.png"
+  },
+  {
+    "type": "Honorable Mention",
+    "title": "EuroVIS 2024",
+    "subtitle": "Exploring Classifiers with Differentiable Decision Boundary Maps",
+    "message": "We received an honorable mention award at EuroVIS 2024.",
+    "badgeIconClass": "fa fa-gift",
+    "link": "https://doi.org/10.1111/cgf.15109",
+    "date": "May 2024",
+    "image": "https://pub-39658beb20e44562b6da3258585e7e5f.r2.dev/papers/3Y3UA7TE/cover.png"
+  },
+  {
+    "type": "Qualification",
+    "title": "Utrecht University",
+    "subtitle": "Senior Teaching Qualification (SKOw)",
+    "message": "I received the Senior Teaching Qualification, the highest academic teaching qualification in the Netherlands, attesting my capabilities of managing and steering curriculum-level activities.",
+    "badgeIconClass": "fa fa-graduation-cap",
+    "link": "https://www.uu.nl/en",
+    "date": "July 2024",
+    "image": "images/logos/UULogo.png"
+  },
+  {
+    "type": "Qualification",
+    "title": "Utrecht University",
+    "subtitle": "Senior Research Qualification (SKOz)",
+    "message": "I received the Senior Research Qualification, the highest Dutch research degree, certifying advanced research achievements, leadership, impact, and team spirit.",
+    "badgeIconClass": "fa fa-graduation-cap",
+    "link": "https://www.uu.nl/en",
+    "date": "November 2024",
+    "image": "images/logos/UULogo.png"
+  },
+  {
+    "title": "Utrecht University",
+    "subtitle": "Associate Professor (Universitair Hoofddocent | UHD2)",
+    "message": "I'm excited to announce that I've been promoted to Associate Professor at Utrecht University, taking a leading role in all UU Data Science educational programmes.",
+    "type": "New Affiliation",
+    "badgeIconClass": "fa fa-university",
+    "link": "https://www.uu.nl/en",
+    "date": "December 2024",
+    "image": "images/logos/UULogo.png"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Contextualising Complexity - Faithful Visualisations for Biology",
+    "message": "Great discussions on visualizing biological complexity faithfully.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=26101",
+    "date": "March 2026",
+    "image": "images/logos/Dagstuhl.png"
+  },
+  {
+    "type": "Best Paper Award",
+    "title": "GRIVAPP 2026",
+    "subtitle": "Graph Visualization Design Guidelines as Learnable Predicates",
+    "message": "Congratulations to Sjoerd Vink for winning the best paper award at GRIVAPP 2026!",
+    "badgeIconClass": "fa fa-gift",
+    "link": "https://dblp.org/db/conf/grivapp/grivapp2026.html",
+    "date": "March 2026",
+    "image": "assets/thumbs/Vink2026Grivapp.jpg"
+  },
+  {
+    "type": "Conference",
+    "title": "IEEE VIS 2026",
+    "subtitle": "Two papers accepted at IEEE VIS 2026",
+    "message": "Excited to share that ZipLine and GraphPolaris were both accepted at IEEE VIS 2026!",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://ieeevis.org/year/2026/welcome/",
+    "date": "October 2026",
+    "image": "images/logos/VIS2026Logo.svg"
+  },
+  {
+    "type": "Personal Invitation",
+    "title": "Dagstuhl Seminar",
+    "subtitle": "Human-Guided AI: The Role of Interactive Visualizations in Human-AI Teaming",
+    "message": "Looking forward to great discussions on Human-AI Teaming and Interactive Visualization.",
+    "badgeIconClass": "icon_quotations",
+    "link": "https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=27281",
+    "date": "July 2027",
     "image": "images/logos/Dagstuhl.png"
   }
 ]
